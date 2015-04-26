@@ -2,11 +2,9 @@
 
 **Bitmap screen font editor for DOS text-mode fonts.**
 
-Opens a simple bitmap format: depending on file extension, each character is 8 (.CGA), 14 (.EGA), 16 (.VGA), 20 (.XGA) lines/bytes, and each line is 1 byte (8 bits). 
+Opens and saves a simple bitmap format: depending on file extension, each glyph is 8 (.CGA), 14 (.EGA), 16 (.VGA), 20 (.XGA) pixels (lines/bytes) tall, and 8 pixels (1 byte/8 bits) wide. Has 4 built-in clipboard buffers for copy-paste, allows glyph shifting and mirroring, has a pattern-making function, and a really primitive UI. 
 
-Has 4 built-in clipboard buffers for copy-paste, allows glyph shifting and mirroring and has a pattern-making function. I wrote the editor because I needed a Cyrillic font for my DOS window. I didn't have one, so I decided to make such a Cyrillic DOS font myself. Since I didn't have an editor, I wrote an editor. Once I finished writing the editor, I no longer needed the Cyrillic font, so I never made any single font with the app. :) 
-
-I'm publishing the app here for no other reason than vanity. :)  
+I wrote the editor in 1994 because I thought I needed a Cyrillic font for my DOS. I didn’t have one, so I decided to make such a Cyrillic DOS font myself. Since I didn’t have a suitable editor, I wrote one. Once I finished writing the editor, I no longer needed the Cyrillic font, so I never made any single font with the app. I’m publishing the app here for no other reason than my vanity and nostalgia. :) 
 
 ![alt text](POLFED32.GIF "POLFED32.GIF")
 
