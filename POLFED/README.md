@@ -4,6 +4,8 @@
 
 Opens a simple bitmap format: depending on file extension, each character is 8 (.CGA), 14 (.EGA), 16 (.VGA), 20 (.XGA) lines/bytes, and each line is 1 byte (8 bits). 
 
+Has 4 built-in clipboard buffers for copy-paste, allows glyph shifting and mirroring and has a pattern-making function. I wrote the editor because I needed a Cyrillic font for my DOS window. I didn't have one, so I decided to make such a Cyrillic DOS font myself. Since I didn't have an editor, I wrote an editor. Once I finished writing the editor, I no longer needed the Cyrillic font, so I never made any single font with the app. :)  
+
 ![alt text](POLFED32.GIF "POLFED32.GIF")
 
 Usage:
