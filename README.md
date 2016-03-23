@@ -1,5 +1,5 @@
 # dos-font-utils
-Old font utils written in the late 1990s in BASIC for DOS (now rewritten in FreeBASIC). Published under the [Apache 2](/LICENSE) license at http://github.com/twardoch . 
+Old font utils written in the late 1990s in BASIC for DOS (now rewritten in FreeBASIC). Published under the [Apache 2](/LICENSE) license at https://github.com/twardoch/dos-font-utils . 
 
 ## [POLFED32.EXE](POLFED)
 **Bitmap screen font editor for DOS text-mode fonts.** Opens and saves a simple bitmap format where each glyph is 8 pixels wide and 8-20 pixels high. Multiple clipboards, some glyph manipulation effects and really primitive UI.  
