@@ -1,0 +1,3599 @@
+Project Structure:
+📁 dos-font-utils
+├── 📁 METRXPRS
+│   ├── 📄 ANSI.MEQ
+│   ├── 📄 METR.AFM
+│   ├── 📄 METRXPRS.BAS
+│   ├── 📄 ORIG.AFM
+│   └── 📄 README.md
+├── 📁 POLFED
+│   ├── 📄 POLFED32.BAS
+│   └── 📄 README.md
+├── 📄 _config.yml
+├── 📄 AUTHORS
+├── 📄 CONTRIBUTORS
+├── 📄 LICENSE
+└── 📄 README.md
+
+
+<documents>
+<document index="1">
+<source>AUTHORS</source>
+<document_content>
+# This is the official list of ttfdiet authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS files.
+# See the latter for an explanation.
+
+# Names should be added to this file as:
+# Name or Organization <email address>
+# The email address is not required for organizations.
+
+Adam Twardoch <adam@twardoch.com>
+
+</document_content>
+</document>
+
+<document index="2">
+<source>CONTRIBUTORS</source>
+<document_content>
+# This is the official list of people who can contribute
+# (and typically have contributed) code to this repository.
+# The AUTHORS file lists the copyright holders; this file
+# lists people. 
+# Names should be added to this file like so:
+#     Name <email address>
+
+Adam Twardoch <adam@twardoch.com>
+
+</document_content>
+</document>
+
+<document index="3">
+<source>LICENSE</source>
+<document_content>
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+</document_content>
+</document>
+
+<document index="4">
+<source>METRXPRS/ANSI.MEQ</source>
+<document_content>
+Adieresis A
+Aacute A
+Agrave A
+Acircumflex A
+Aring A
+Atilde A
+Ccedilla C
+Eacute E
+Ecircumflex E
+Edieresis E
+Egrave E
+Iacute I
+Icircumflex I
+Idieresis I
+Igrave I
+Odieresis O
+Oacute O
+Ocircumflex O
+Ograve O
+Otilde O
+Oslash O
+Scaron S
+Udieresis U
+Uacute U
+Ucircumflex U
+Ugrave U
+Yacute Y
+Ydieresis Y
+Zcaron Z
+adieresis a
+aacute a
+agrave a
+acircumflex a
+aring a
+atilde a
+ccedilla c
+eacute e
+ecircumflex e
+edieresis e
+egrave e
+iacute i
+icircumflex i
+idieresis i
+igrave i
+odieresis o
+oacute o
+ocircumflex o
+ograve o
+otilde o
+oslash o
+scaron s
+udieresis u
+uacute u
+ucircumflex u
+ugrave u
+yacute y
+ydieresis y
+zcaron z
+
+</document_content>
+</document>
+
+<document index="5">
+<source>METRXPRS/METR.AFM</source>
+<document_content>
+StartFontMetrics 2.0
+Comment Panose 2 0 0 0 0 0 0 0 0 0
+FullName Roboto
+FontName Roboto-Regular
+FamilyName Roboto
+Weight Normal
+Notice Copyright 2011 Google Inc. All Rights Reserved.
+IsFixedPitch false
+ItalicAngle 0.00
+FontBBox -49 -250 974 947
+Ascender 750
+Descender -250
+XHeight 528
+CapHeight 711
+UnderlinePosition -200
+UnderlineThickness 100
+EncodingScheme FontSpecific
+StartCharMetrics 382
+C 1 ; WX 0 ; N NULL ; B 0 0 0 0 ;
+C 13 ; WX 248 ; N CR ; B 0 0 0 0 ;
+C 32 ; WX 248 ; N space ; B 0 0 0 0 ;
+C 33 ; WX 257 ; N exclam ; B 78 -5 185 711 ;
+C 34 ; WX 320 ; N quotedbl ; B 66 509 267 750 ;
+C 35 ; WX 616 ; N numbersign ; B 58 0 603 711 ;
+C 36 ; WX 562 ; N dollar ; B 54 -102 508 826 ;
+C 37 ; WX 732 ; N percent ; B 51 -10 689 721 ;
+C 38 ; WX 622 ; N ampersand ; B 49 -10 619 721 ;
+C 39 ; WX 174 ; N quotesingle ; B 50 516 124 750 ;
+C 40 ; WX 342 ; N parenleft ; B 65 -229 323 802 ;
+C 41 ; WX 348 ; N parenright ; B 19 -229 277 802 ;
+C 42 ; WX 431 ; N asterisk ; B 14 297 417 711 ;
+C 43 ; WX 567 ; N plus ; B 38 71 525 589 ;
+C 44 ; WX 196 ; N comma ; B 14 -142 150 107 ;
+C 45 ; WX 276 ; N hyphen ; B 18 265 256 339 ;
+C 46 ; WX 263 ; N period ; B 70 -5 183 102 ;
+C 47 ; WX 412 ; N slash ; B 9 -61 383 711 ;
+C 48 ; WX 562 ; N zero ; B 56 -10 505 721 ;
+C 49 ; WX 562 ; N one ; B 83 0 356 714 ;
+C 50 ; WX 562 ; N two ; B 45 0 525 721 ;
+C 51 ; WX 562 ; N three ; B 46 -10 497 721 ;
+C 52 ; WX 562 ; N four ; B 26 0 539 711 ;
+C 53 ; WX 562 ; N five ; B 75 -10 522 711 ;
+C 54 ; WX 562 ; N six ; B 64 -10 514 711 ;
+C 55 ; WX 562 ; N seven ; B 38 0 518 711 ;
+C 56 ; WX 562 ; N eight ; B 55 -10 507 721 ;
+C 57 ; WX 562 ; N nine ; B 49 0 496 721 ;
+C 58 ; WX 242 ; N colon ; B 65 -5 178 533 ;
+C 59 ; WX 211 ; N semicolon ; B 20 -142 167 533 ;
+C 60 ; WX 508 ; N less ; B 35 95 435 536 ;
+C 61 ; WX 549 ; N equal ; B 74 195 481 476 ;
+C 62 ; WX 522 ; N greater ; B 65 96 482 537 ;
+C 63 ; WX 472 ; N question ; B 37 -5 433 721 ;
+C 64 ; WX 898 ; N at ; B 52 -221 854 699 ;
+C 65 ; WX 652 ; N A ; B 14 0 639 711 ;
+C 66 ; WX 623 ; N B ; B 83 0 566 711 ;
+C 67 ; WX 651 ; N C ; B 58 -10 605 721 ;
+C 68 ; WX 656 ; N D ; B 83 0 597 711 ;
+C 69 ; WX 568 ; N E ; B 83 0 534 711 ;
+C 70 ; WX 553 ; N F ; B 83 0 523 711 ;
+C 71 ; WX 681 ; N G ; B 60 -10 607 721 ;
+C 72 ; WX 713 ; N H ; B 83 0 629 711 ;
+C 73 ; WX 272 ; N I ; B 89 0 183 711 ;
+C 74 ; WX 552 ; N J ; B 26 -10 475 711 ;
+C 75 ; WX 627 ; N K ; B 83 0 627 711 ;
+C 76 ; WX 538 ; N L ; B 83 0 514 711 ;
+C 77 ; WX 873 ; N M ; B 83 0 790 711 ;
+C 78 ; WX 713 ; N N ; B 83 0 629 711 ;
+C 79 ; WX 687 ; N O ; B 58 -10 629 721 ;
+C 80 ; WX 631 ; N P ; B 83 0 594 711 ;
+C 81 ; WX 687 ; N Q ; B 53 -120 628 721 ;
+C 82 ; WX 616 ; N R ; B 82 0 598 711 ;
+C 83 ; WX 593 ; N S ; B 39 -10 556 721 ;
+C 84 ; WX 597 ; N T ; B 24 0 574 711 ;
+C 85 ; WX 648 ; N U ; B 68 -10 583 711 ;
+C 86 ; WX 636 ; N V ; B 14 0 624 711 ;
+C 87 ; WX 887 ; N W ; B 30 0 866 711 ;
+C 88 ; WX 627 ; N X ; B 28 0 601 711 ;
+C 89 ; WX 601 ; N Y ; B 7 0 591 711 ;
+C 90 ; WX 599 ; N Z ; B 42 0 560 711 ;
+C 91 ; WX 265 ; N bracketleft ; B 71 -152 255 812 ;
+C 92 ; WX 410 ; N backslash ; B 20 -61 402 711 ;
+C 93 ; WX 265 ; N bracketright ; B 4 -152 189 812 ;
+C 94 ; WX 418 ; N asciicircum ; B 31 356 385 711 ;
+C 95 ; WX 451 ; N underscore ; B 2 -74 449 0 ;
+C 96 ; WX 309 ; N grave ; B 28 605 231 749 ;
+C 97 ; WX 544 ; N a ; B 53 -10 489 538 ;
+C 98 ; WX 561 ; N b ; B 68 -10 516 750 ;
+C 99 ; WX 523 ; N c ; B 45 -10 490 538 ;
+C 100 ; WX 564 ; N d ; B 46 -10 492 750 ;
+C 101 ; WX 530 ; N e ; B 45 -10 494 538 ;
+C 102 ; WX 347 ; N f ; B 29 0 349 760 ;
+C 103 ; WX 561 ; N g ; B 47 -208 493 538 ;
+C 104 ; WX 551 ; N h ; B 68 0 484 750 ;
+C 105 ; WX 243 ; N i ; B 69 0 176 721 ;
+C 106 ; WX 239 ; N j ; B -32 -213 168 721 ;
+C 107 ; WX 507 ; N k ; B 69 0 506 750 ;
+C 108 ; WX 243 ; N l ; B 76 0 167 750 ;
+C 109 ; WX 876 ; N m ; B 68 0 809 538 ;
+C 110 ; WX 552 ; N n ; B 68 0 484 538 ;
+C 111 ; WX 570 ; N o ; B 44 -10 525 538 ;
+C 112 ; WX 561 ; N p ; B 68 -203 515 538 ;
+C 113 ; WX 568 ; N q ; B 46 -203 492 538 ;
+C 114 ; WX 338 ; N r ; B 68 0 324 538 ;
+C 115 ; WX 516 ; N s ; B 46 -10 466 538 ;
+C 116 ; WX 327 ; N t ; B 4 -10 292 656 ;
+C 117 ; WX 551 ; N u ; B 66 -10 482 528 ;
+C 118 ; WX 484 ; N v ; B 16 0 466 528 ;
+C 119 ; WX 751 ; N w ; B 21 0 728 528 ;
+C 120 ; WX 496 ; N x ; B 20 0 474 528 ;
+C 121 ; WX 473 ; N y ; B 11 -213 461 528 ;
+C 122 ; WX 496 ; N z ; B 43 0 462 528 ;
+C 123 ; WX 338 ; N braceleft ; B 31 -179 327 780 ;
+C 124 ; WX 244 ; N bar ; B 85 -132 158 711 ;
+C 125 ; WX 338 ; N braceright ; B 9 -179 306 780 ;
+C 126 ; WX 680 ; N asciitilde ; B 64 196 617 392 ;
+C 128 ; WX 248 ; N uni00A0 ; B 0 0 0 0 ;
+C 129 ; WX 244 ; N exclamdown ; B 68 -176 175 538 ;
+C 130 ; WX 547 ; N cent ; B 51 -120 497 644 ;
+C 131 ; WX 581 ; N sterling ; B 44 0 551 721 ;
+C 132 ; WX 713 ; N currency ; B 51 -13 669 618 ;
+C 133 ; WX 605 ; N yen ; B 15 0 584 711 ;
+C 134 ; WX 240 ; N brokenbar ; B 72 -132 163 711 ;
+C 135 ; WX 613 ; N section ; B 44 -242 559 721 ;
+C 136 ; WX 418 ; N dieresis ; B 50 617 367 721 ;
+C 137 ; WX 786 ; N copyright ; B 44 -10 737 721 ;
+C 138 ; WX 447 ; N ordfeminine ; B 72 337 382 721 ;
+C 139 ; WX 469 ; N guillemotleft ; B 50 74 424 462 ;
+C 140 ; WX 554 ; N logicalnot ; B 62 183 468 391 ;
+C 141 ; WX 276 ; N uni00AD ; B 18 265 256 339 ;
+C 142 ; WX 786 ; N registered ; B 44 -10 737 721 ;
+C 143 ; WX 458 ; N macron ; B 59 641 407 711 ;
+C 144 ; WX 374 ; N degree ; B 63 469 311 721 ;
+C 145 ; WX 534 ; N plusminus ; B 47 0 495 619 ;
+C 146 ; WX 367 ; N twosuperior ; B 32 326 333 716 ;
+C 147 ; WX 367 ; N threesuperior ; B 30 320 325 716 ;
+C 148 ; WX 313 ; N acute ; B 60 605 264 749 ;
+C 149 ; WX 566 ; N mu ; B 75 -203 491 528 ;
+C 150 ; WX 489 ; N paragraph ; B 33 0 406 711 ;
+C 151 ; WX 261 ; N periodcentered ; B 72 302 184 411 ;
+C 152 ; WX 248 ; N cedilla ; B 57 -212 208 0 ;
+C 153 ; WX 367 ; N onesuperior ; B 60 329 242 714 ;
+C 154 ; WX 455 ; N ordmasculine ; B 60 337 394 721 ;
+C 155 ; WX 469 ; N guillemotright ; B 50 74 434 463 ;
+C 156 ; WX 732 ; N onequarter ; B 42 0 696 709 ;
+C 157 ; WX 776 ; N onehalf ; B 39 0 723 709 ;
+C 158 ; WX 778 ; N threequarters ; B 54 0 741 716 ;
+C 159 ; WX 473 ; N questiondown ; B 33 -188 434 538 ;
+C 160 ; WX 652 ; N Agrave ; B 14 0 639 900 ;
+C 161 ; WX 652 ; N Aacute ; B 14 0 639 900 ;
+C 162 ; WX 652 ; N Acircumflex ; B 14 0 639 901 ;
+C 163 ; WX 652 ; N Atilde ; B 14 0 639 892 ;
+C 164 ; WX 652 ; N Adieresis ; B 14 0 639 873 ;
+C 165 ; WX 652 ; N Aring ; B 14 0 639 946 ;
+C 166 ; WX 935 ; N AE ; B -7 0 917 711 ;
+C 167 ; WX 651 ; N Ccedilla ; B 58 -217 605 721 ;
+C 168 ; WX 568 ; N Egrave ; B 83 0 534 906 ;
+C 169 ; WX 568 ; N Eacute ; B 83 0 534 906 ;
+C 170 ; WX 568 ; N Ecircumflex ; B 83 0 534 907 ;
+C 171 ; WX 568 ; N Edieresis ; B 83 0 534 878 ;
+C 172 ; WX 272 ; N Igrave ; B 89 0 183 906 ;
+C 173 ; WX 272 ; N Iacute ; B 89 0 183 906 ;
+C 174 ; WX 272 ; N Icircumflex ; B 89 0 183 907 ;
+C 175 ; WX 272 ; N Idieresis ; B 89 0 183 878 ;
+C 176 ; WX 670 ; N Eth ; B 18 0 611 711 ;
+C 177 ; WX 713 ; N Ntilde ; B 83 0 629 892 ;
+C 178 ; WX 687 ; N Ograve ; B 58 -10 629 901 ;
+C 179 ; WX 687 ; N Oacute ; B 58 -10 629 901 ;
+C 180 ; WX 687 ; N Ocircumflex ; B 58 -10 629 902 ;
+C 181 ; WX 687 ; N Otilde ; B 58 -10 629 893 ;
+C 182 ; WX 687 ; N Odieresis ; B 58 -10 629 874 ;
+C 183 ; WX 533 ; N multiply ; B 43 101 483 548 ;
+C 184 ; WX 687 ; N Oslash ; B 58 -45 629 740 ;
+C 185 ; WX 648 ; N Ugrave ; B 68 -10 583 900 ;
+C 186 ; WX 648 ; N Uacute ; B 68 -10 583 900 ;
+C 187 ; WX 648 ; N Ucircumflex ; B 68 -10 583 901 ;
+C 188 ; WX 648 ; N Udieresis ; B 68 -10 583 873 ;
+C 189 ; WX 601 ; N Yacute ; B 7 0 591 900 ;
+C 190 ; WX 591 ; N Thorn ; B 81 0 545 711 ;
+C 191 ; WX 595 ; N germandbls ; B 68 -10 552 759 ;
+C 192 ; WX 544 ; N agrave ; B 53 -10 489 749 ;
+C 193 ; WX 544 ; N aacute ; B 53 -10 489 749 ;
+C 194 ; WX 544 ; N acircumflex ; B 53 -10 489 750 ;
+C 195 ; WX 544 ; N atilde ; B 53 -10 489 740 ;
+C 196 ; WX 544 ; N adieresis ; B 53 -10 489 721 ;
+C 197 ; WX 544 ; N aring ; B 53 -10 489 794 ;
+C 198 ; WX 844 ; N ae ; B 38 -10 811 538 ;
+C 199 ; WX 523 ; N ccedilla ; B 45 -217 490 538 ;
+C 200 ; WX 530 ; N egrave ; B 45 -10 494 749 ;
+C 201 ; WX 530 ; N eacute ; B 45 -10 494 749 ;
+C 202 ; WX 530 ; N ecircumflex ; B 45 -10 494 750 ;
+C 203 ; WX 530 ; N edieresis ; B 45 -10 494 721 ;
+C 204 ; WX 243 ; N igrave ; B 69 0 176 749 ;
+C 205 ; WX 243 ; N iacute ; B 69 0 176 749 ;
+C 206 ; WX 243 ; N icircumflex ; B 69 0 176 750 ;
+C 207 ; WX 243 ; N idieresis ; B 69 0 176 721 ;
+C 208 ; WX 586 ; N eth ; B 62 -10 522 771 ;
+C 209 ; WX 552 ; N ntilde ; B 68 0 484 740 ;
+C 210 ; WX 570 ; N ograve ; B 44 -10 525 749 ;
+C 211 ; WX 570 ; N oacute ; B 44 -10 525 749 ;
+C 212 ; WX 570 ; N ocircumflex ; B 44 -10 525 750 ;
+C 213 ; WX 570 ; N otilde ; B 44 -10 525 740 ;
+C 214 ; WX 570 ; N odieresis ; B 44 -10 525 721 ;
+C 215 ; WX 571 ; N divide ; B 35 84 522 591 ;
+C 216 ; WX 570 ; N oslash ; B 44 -65 525 590 ;
+C 217 ; WX 551 ; N ugrave ; B 66 -10 482 749 ;
+C 218 ; WX 551 ; N uacute ; B 66 -10 482 749 ;
+C 219 ; WX 551 ; N ucircumflex ; B 66 -10 482 750 ;
+C 220 ; WX 551 ; N udieresis ; B 66 -10 482 721 ;
+C 221 ; WX 473 ; N yacute ; B 11 -213 461 749 ;
+C 222 ; WX 576 ; N thorn ; B 73 -203 519 750 ;
+C 223 ; WX 473 ; N ydieresis ; B 11 -213 461 721 ;
+C 224 ; WX 652 ; N Amacron ; B 14 0 639 866 ;
+C 225 ; WX 544 ; N amacron ; B 53 -10 489 715 ;
+C 226 ; WX 652 ; N Abreve ; B 14 0 639 882 ;
+C 227 ; WX 544 ; N abreve ; B 53 -10 489 730 ;
+C 228 ; WX 652 ; N Aogonek ; B 14 -211 639 711 ;
+C 229 ; WX 544 ; N aogonek ; B 53 -211 489 538 ;
+C 230 ; WX 651 ; N Cacute ; B 58 -10 605 917 ;
+C 231 ; WX 523 ; N cacute ; B 45 -10 490 749 ;
+C 232 ; WX 651 ; N Ccircumflex ; B 58 -10 605 917 ;
+C 233 ; WX 523 ; N ccircumflex ; B 45 -10 490 750 ;
+C 234 ; WX 651 ; N Cdotaccent ; B 58 -10 605 887 ;
+C 235 ; WX 523 ; N cdotaccent ; B 45 -10 490 720 ;
+C 236 ; WX 651 ; N Ccaron ; B 58 -10 605 917 ;
+C 237 ; WX 523 ; N ccaron ; B 45 -10 490 750 ;
+C 238 ; WX 656 ; N Dcaron ; B 83 0 597 907 ;
+C 239 ; WX 637 ; N dcaron ; B 46 -10 646 751 ;
+C 240 ; WX 670 ; N Dcroat ; B 18 0 611 711 ;
+C 241 ; WX 579 ; N dcroat ; B 46 -10 584 750 ;
+C 242 ; WX 568 ; N Emacron ; B 83 0 534 872 ;
+C 243 ; WX 530 ; N emacron ; B 45 -10 494 715 ;
+C 244 ; WX 568 ; N Ebreve ; B 83 0 534 888 ;
+C 245 ; WX 530 ; N ebreve ; B 45 -10 494 730 ;
+C 246 ; WX 568 ; N Edotaccent ; B 83 0 534 877 ;
+C 247 ; WX 530 ; N edotaccent ; B 45 -10 494 720 ;
+C 248 ; WX 568 ; N Eogonek ; B 83 -211 534 711 ;
+C 249 ; WX 530 ; N eogonek ; B 45 -199 494 538 ;
+C 250 ; WX 568 ; N Ecaron ; B 83 0 534 907 ;
+C 251 ; WX 530 ; N ecaron ; B 45 -10 494 750 ;
+C 252 ; WX 681 ; N Gcircumflex ; B 60 -10 607 917 ;
+C 253 ; WX 561 ; N gcircumflex ; B 47 -208 493 750 ;
+C 254 ; WX 681 ; N Gbreve ; B 60 -10 607 898 ;
+C 255 ; WX 561 ; N gbreve ; B 47 -208 493 730 ;
+C -1 ; WX 562 ; N Euro ; B 46 -10 514 721 ;
+C -1 ; WX 681 ; N Gdotaccent ; B 60 -10 607 887 ;
+C -1 ; WX 700 ; N Hbar ; B 14 0 691 711 ;
+C -1 ; WX 713 ; N Hcircumflex ; B 83 0 629 907 ;
+C -1 ; WX 824 ; N IJ ; B 89 -10 747 711 ;
+C -1 ; WX 272 ; N Idotaccent ; B 83 0 190 877 ;
+C -1 ; WX 272 ; N Imacron ; B -36 0 312 872 ;
+C -1 ; WX 272 ; N Iogonek ; B 12 -207 184 711 ;
+C -1 ; WX 272 ; N Itilde ; B -36 0 310 897 ;
+C -1 ; WX 552 ; N Jcircumflex ; B 26 -10 563 901 ;
+C -1 ; WX 538 ; N Lacute ; B 79 0 514 898 ;
+C -1 ; WX 538 ; N Lcaron ; B 83 0 514 711 ;
+C -1 ; WX 538 ; N Ldot ; B 83 0 514 711 ;
+C -1 ; WX 539 ; N Lslash ; B 17 0 513 711 ;
+C -1 ; WX 713 ; N Nacute ; B 83 0 629 900 ;
+C -1 ; WX 713 ; N Ncaron ; B 83 0 629 901 ;
+C -1 ; WX 954 ; N OE ; B 51 -10 879 721 ;
+C -1 ; WX 687 ; N Obreve ; B 58 -10 629 883 ;
+C -1 ; WX 687 ; N Ohungarumlaut ; B 58 -10 629 902 ;
+C -1 ; WX 687 ; N Omacron ; B 58 -10 629 867 ;
+C -1 ; WX 616 ; N Racute ; B 82 0 598 900 ;
+C -1 ; WX 616 ; N Rcaron ; B 82 0 598 901 ;
+C -1 ; WX 593 ; N Sacute ; B 39 -10 556 901 ;
+C -1 ; WX 593 ; N Scaron ; B 39 -10 556 902 ;
+C -1 ; WX 593 ; N Scedilla ; B 39 -212 556 721 ;
+C -1 ; WX 593 ; N Scircumflex ; B 39 -10 556 902 ;
+C -1 ; WX 597 ; N Tbar ; B 24 0 574 711 ;
+C -1 ; WX 597 ; N Tcaron ; B 24 0 574 901 ;
+C -1 ; WX 648 ; N Ubreve ; B 68 -10 583 882 ;
+C -1 ; WX 648 ; N Uhungarumlaut ; B 68 -10 583 901 ;
+C -1 ; WX 648 ; N Umacron ; B 68 -10 583 866 ;
+C -1 ; WX 648 ; N Uogonek ; B 68 -190 583 711 ;
+C -1 ; WX 648 ; N Uring ; B 68 -10 583 946 ;
+C -1 ; WX 648 ; N Utilde ; B 68 -10 583 892 ;
+C -1 ; WX 887 ; N Wacute ; B 30 0 866 900 ;
+C -1 ; WX 887 ; N Wcircumflex ; B 30 0 866 901 ;
+C -1 ; WX 887 ; N Wdieresis ; B 30 0 866 873 ;
+C -1 ; WX 887 ; N Wgrave ; B 30 0 866 900 ;
+C -1 ; WX 601 ; N Ycircumflex ; B 7 0 591 901 ;
+C -1 ; WX 601 ; N Ydieresis ; B 7 0 591 873 ;
+C -1 ; WX 599 ; N Zacute ; B 42 0 560 900 ;
+C -1 ; WX 599 ; N Zcaron ; B 42 0 560 901 ;
+C -1 ; WX 599 ; N Zdotaccent ; B 42 0 560 871 ;
+C -1 ; WX 563 ; N approxequal ; B 49 137 505 494 ;
+C -1 ; WX 427 ; N breve ; B 63 599 355 730 ;
+C -1 ; WX 337 ; N bullet ; B 67 261 267 474 ;
+C -1 ; WX 444 ; N caron ; B 68 611 370 750 ;
+C -1 ; WX 471 ; N circumflex ; B 83 611 378 750 ;
+C -1 ; WX 551 ; N dagger ; B 34 0 518 711 ;
+C -1 ; WX 570 ; N daggerdbl ; B 42 -203 525 711 ;
+C -1 ; WX 243 ; N dotaccent ; B 69 616 176 720 ;
+C -1 ; WX 247 ; N dotlessi ; B 76 0 167 528 ;
+C -1 ; WX 669 ; N ellipsis ; B 72 -5 601 102 ;
+C -1 ; WX 781 ; N emdash ; B 71 318 723 392 ;
+C -1 ; WX 656 ; N endash ; B 80 318 569 392 ;
+C -1 ; WX 636 ; N estimated ; B 74 -10 572 538 ;
+C -1 ; WX 619 ; N f_f ; B 29 0 620 760 ;
+C -1 ; WX 854 ; N f_f_i ; B 29 0 774 760 ;
+C -1 ; WX 854 ; N f_f_l ; B 29 0 774 760 ;
+C -1 ; WX 554 ; N fi ; B 15 0 475 760 ;
+C -1 ; WX 568 ; N fl ; B 29 0 489 760 ;
+C -1 ; WX 340 ; N florin ; B -14 -213 342 760 ;
+C -1 ; WX 455 ; N fraction ; B 29 54 427 642 ;
+C -1 ; WX 553 ; N franc ; B 9 0 523 711 ;
+C -1 ; WX 561 ; N gdotaccent ; B 47 -208 493 720 ;
+C -1 ; WX 523 ; N greaterequal ; B 65 0 482 539 ;
+C -1 ; WX 300 ; N guilsinglleft ; B 53 75 266 463 ;
+C -1 ; WX 300 ; N guilsinglright ; B 43 74 257 463 ;
+C -1 ; WX 565 ; N hbar ; B 0 0 499 750 ;
+C -1 ; WX 551 ; N hcircumflex ; B 68 0 484 907 ;
+C -1 ; WX 373 ; N hungarumlaut ; B 46 602 396 750 ;
+C -1 ; WX 481 ; N ij ; B 69 -213 411 721 ;
+C -1 ; WX 247 ; N imacron ; B -49 0 300 714 ;
+C -1 ; WX 1028 ; N infinity ; B 48 -10 974 538 ;
+C -1 ; WX 256 ; N integral ; B -39 -213 319 760 ;
+C -1 ; WX 243 ; N iogonek ; B -2 -211 176 721 ;
+C -1 ; WX 247 ; N itilde ; B -48 0 297 739 ;
+C -1 ; WX 251 ; N jcircumflex ; B -37 -213 278 730 ;
+C -1 ; WX 556 ; N kgreenlandic ; B 75 0 531 528 ;
+C -1 ; WX 243 ; N lacute ; B 72 0 275 947 ;
+C -1 ; WX 316 ; N lcaron ; B 76 0 334 751 ;
+C -1 ; WX 350 ; N ldot ; B 76 0 328 750 ;
+C -1 ; WX 508 ; N lessequal ; B 30 1 438 530 ;
+C -1 ; WX 581 ; N lira ; B 44 0 551 721 ;
+C -1 ; WX 248 ; N longs ; B 78 0 313 760 ;
+C -1 ; WX 504 ; N lozenge ; B 21 0 482 711 ;
+C -1 ; WX 270 ; N lslash ; B 17 0 255 750 ;
+C -1 ; WX 571 ; N minus ; B 82 318 490 392 ;
+C -1 ; WX 552 ; N nacute ; B 68 0 484 749 ;
+C -1 ; WX 552 ; N napostrophe ; B -33 0 484 752 ;
+C -1 ; WX 552 ; N ncaron ; B 68 0 484 750 ;
+C -1 ; WX 549 ; N notequal ; B 74 76 481 604 ;
+C -1 ; WX 570 ; N obreve ; B 44 -10 525 730 ;
+C -1 ; WX 908 ; N oe ; B 47 -10 875 538 ;
+C -1 ; WX 271 ; N ogonek ; B 24 -211 196 27 ;
+C -1 ; WX 570 ; N ohungarumlaut ; B 44 -10 525 750 ;
+C -1 ; WX 570 ; N omacron ; B 44 -10 525 715 ;
+C -1 ; WX 570 ; N partialdiff ; B 52 -10 524 740 ;
+C -1 ; WX 958 ; N perthousand ; B 33 -10 917 721 ;
+C -1 ; WX 820 ; N peseta ; B 82 -10 751 711 ;
+C -1 ; WX 596 ; N pi ; B 20 -6 580 528 ;
+C -1 ; WX 694 ; N product ; B 83 -104 612 711 ;
+C -1 ; WX 344 ; N quotedblbase ; B 18 -147 299 120 ;
+C -1 ; WX 354 ; N quotedblleft ; B 51 524 341 759 ;
+C -1 ; WX 357 ; N quotedblright ; B 29 511 315 750 ;
+C -1 ; WX 200 ; N quoteleft ; B 47 524 184 759 ;
+C -1 ; WX 200 ; N quoteright ; B 23 511 160 750 ;
+C -1 ; WX 199 ; N quotesinglbase ; B 18 -138 154 88 ;
+C -1 ; WX 338 ; N racute ; B 68 0 353 749 ;
+C -1 ; WX 596 ; N radical ; B 31 0 574 711 ;
+C -1 ; WX 338 ; N rcaron ; B 48 0 350 750 ;
+C -1 ; WX 334 ; N ring ; B 59 588 269 789 ;
+C -1 ; WX 516 ; N sacute ; B 46 -10 466 749 ;
+C -1 ; WX 516 ; N scaron ; B 46 -10 466 750 ;
+C -1 ; WX 516 ; N scedilla ; B 46 -216 466 538 ;
+C -1 ; WX 516 ; N scircumflex ; B 46 -10 466 750 ;
+C -1 ; WX 585 ; N summation ; B 34 -131 583 711 ;
+C -1 ; WX 327 ; N tbar ; B -6 -10 305 656 ;
+C -1 ; WX 346 ; N tcaron ; B 4 -10 365 809 ;
+C -1 ; WX 472 ; N tilde ; B 60 606 405 738 ;
+C -1 ; WX 625 ; N trademark ; B 50 449 527 711 ;
+C -1 ; WX 551 ; N ubreve ; B 66 -10 482 730 ;
+C -1 ; WX 551 ; N uhungarumlaut ; B 66 -10 506 750 ;
+C -1 ; WX 551 ; N umacron ; B 66 -10 482 715 ;
+C -1 ; WX 681 ; N uni0122 ; B 60 -250 607 721 ;
+C -1 ; WX 561 ; N uni0123 ; B 47 -208 493 822 ;
+C -1 ; WX 627 ; N uni0136 ; B 83 -250 627 711 ;
+C -1 ; WX 507 ; N uni0137 ; B 69 -250 506 750 ;
+C -1 ; WX 538 ; N uni013B ; B 83 -250 514 711 ;
+C -1 ; WX 243 ; N uni013C ; B 42 -250 167 750 ;
+C -1 ; WX 713 ; N uni0145 ; B 83 -250 629 711 ;
+C -1 ; WX 552 ; N uni0146 ; B 68 -250 484 538 ;
+C -1 ; WX 616 ; N uni0156 ; B 82 -250 598 711 ;
+C -1 ; WX 338 ; N uni0157 ; B 41 -250 324 538 ;
+C -1 ; WX 597 ; N uni0162 ; B 24 -212 574 711 ;
+C -1 ; WX 327 ; N uni0163 ; B 4 -212 325 656 ;
+C -1 ; WX 593 ; N uni0218 ; B 39 -250 556 721 ;
+C -1 ; WX 516 ; N uni0219 ; B 46 -250 466 538 ;
+C -1 ; WX 597 ; N uni021A ; B 24 -250 574 711 ;
+C -1 ; WX 327 ; N uni021B ; B 4 -250 292 656 ;
+C -1 ; WX 251 ; N uni0237 ; B -37 -213 174 528 ;
+C -1 ; WX 458 ; N uni02C9 ; B 59 641 407 711 ;
+C -1 ; WX 705 ; N uni0394 ; B 15 0 681 711 ;
+C -1 ; WX 665 ; N uni03A9 ; B 55 0 599 721 ;
+C -1 ; WX 566 ; N uni03BC ; B 75 -203 491 528 ;
+C -1 ; WX 476 ; N uni2113 ; B 51 -10 427 759 ;
+C -1 ; WX 551 ; N uogonek ; B 66 -211 487 528 ;
+C -1 ; WX 551 ; N uring ; B 66 -10 482 794 ;
+C -1 ; WX 551 ; N utilde ; B 66 -10 482 740 ;
+C -1 ; WX 751 ; N wacute ; B 21 0 728 749 ;
+C -1 ; WX 751 ; N wcircumflex ; B 21 0 728 750 ;
+C -1 ; WX 751 ; N wdieresis ; B 21 0 728 721 ;
+C -1 ; WX 751 ; N wgrave ; B 21 0 728 749 ;
+C -1 ; WX 473 ; N ycircumflex ; B 11 -213 461 750 ;
+C -1 ; WX 496 ; N zacute ; B 43 0 462 749 ;
+C -1 ; WX 496 ; N zcaron ; B 43 0 462 750 ;
+C -1 ; WX 496 ; N zdotaccent ; B 43 0 462 720 ;
+EndCharMetrics
+StartKernData
+StartKernPairs 259
+KPX space T -20
+
+KPX quotedbl quotedbl -52
+KPX quotedbl A -59
+KPX quotedbl a -24
+KPX quotedbl c -29
+KPX quotedbl m -10
+KPX quotedbl o -30
+KPX quotedbl s -39
+KPX quotedbl w 5
+
+KPX parenleft V 10
+KPX parenleft W 9
+KPX parenleft Y 11
+
+KPX comma quotedbl -83
+
+KPX slash slash -109
+
+KPX A quotedbl -59
+KPX A question -30
+KPX A C -5
+KPX A T -63
+KPX A U -8
+KPX A V -42
+KPX A W -34
+KPX A Y -46
+KPX A o -6
+KPX A t -8
+KPX A u -5
+KPX A v -24
+KPX A w -16
+KPX A z 6
+
+KPX B T -13
+KPX B V -12
+KPX B Y -27
+
+KPX C parenright -13
+KPX C T -14
+KPX C bracketright -6
+KPX C braceright -8
+
+KPX D comma -50
+KPX D A -10
+KPX D T -13
+KPX D V -11
+KPX D X -11
+KPX D Y -21
+KPX D Z -11
+KPX D AE -16
+
+KPX E T 10
+KPX E c -9
+KPX E f -9
+KPX E o -9
+KPX E u -8
+KPX E v -13
+KPX E w -11
+
+KPX F comma -114
+KPX F A -83
+KPX F J -129
+KPX F T 10
+KPX F a -17
+KPX F c -10
+KPX F o -10
+KPX F r -13
+KPX F u -11
+KPX F v -12
+
+KPX H A 9
+KPX H T -14
+KPX H X 8
+KPX H Y -14
+
+KPX J A -11
+
+KPX K hyphen -31
+KPX K C -15
+KPX K c -13
+KPX K m -11
+KPX K o -13
+KPX K u -11
+KPX K v -20
+KPX K w -31
+
+KPX L quotedbl -164
+KPX L A 9
+KPX L C -32
+KPX L T -134
+KPX L U -26
+KPX L V -85
+KPX L W -70
+KPX L Y -117
+KPX L u -21
+KPX L v -65
+KPX L w -45
+
+KPX P comma -158
+KPX P A -67
+KPX P J -98
+KPX P X -15
+KPX P Z -13
+KPX P a -5
+KPX P c -6
+KPX P o -6
+KPX P t 7
+KPX P v 7
+KPX P AE -47
+
+KPX Q T -21
+KPX Q V -14
+KPX Q W -10
+KPX Q Y -17
+
+KPX R T -39
+KPX R V -9
+KPX R Y -23
+
+KPX T space -20
+KPX T comma -106
+KPX T hyphen -113
+KPX T A -39
+KPX T C -14
+KPX T J -117
+KPX T S -8
+KPX T T 8
+KPX T V 8
+KPX T W 7
+KPX T Y 8
+KPX T a -55
+KPX T c -48
+KPX T m -53
+KPX T o -48
+KPX T r -37
+KPX T s -57
+KPX T u -46
+KPX T v -35
+KPX T w -28
+KPX T x -38
+KPX T z -29
+KPX T guillemotleft -160
+KPX T guillemotright -105
+KPX T AE -87
+KPX T ae -56
+KPX T oslash -46
+KPX T pi -59
+
+KPX V parenright 10
+KPX V comma -110
+KPX V hyphen -18
+KPX V A -37
+KPX V C -6
+KPX V bracketright 8
+KPX V a -22
+KPX V c -21
+KPX V o -22
+KPX V r -15
+KPX V u -14
+KPX V v -5
+KPX V braceright 9
+
+KPX W parenright 7
+KPX W comma -60
+KPX W hyphen -29
+KPX W A -21
+KPX W T 7
+KPX W bracketright 6
+KPX W a -16
+KPX W c -15
+KPX W o -15
+KPX W r -10
+KPX W u -9
+KPX W braceright 7
+
+KPX X hyphen -22
+KPX X C -12
+KPX X V 7
+KPX X c -13
+KPX X o -10
+KPX X u -10
+KPX X v -15
+
+KPX Y ampersand -15
+KPX Y parenright 10
+KPX Y asterisk -24
+KPX Y comma -103
+KPX Y hyphen -25
+KPX Y A -46
+KPX Y C -14
+KPX Y J -47
+KPX Y S -8
+KPX Y T 8
+KPX Y U -47
+KPX Y V 9
+KPX Y W 8
+KPX Y X 6
+KPX Y Y 9
+KPX Y bracketright 9
+KPX Y a -36
+KPX Y c -32
+KPX Y f -11
+KPX Y m -20
+KPX Y o -32
+KPX Y r -20
+KPX Y s -28
+KPX Y t -11
+KPX Y u -19
+KPX Y v -10
+KPX Y x -11
+KPX Y z -15
+KPX Y braceright 9
+KPX Y guillemotleft -40
+KPX Y guillemotright -25
+KPX Y AE -47
+KPX Y ae -31
+KPX Y oslash -31
+KPX Y pi -12
+KPX Y bullet -22
+
+KPX Z A 6
+KPX Z C -13
+KPX Z c -10
+KPX Z o -10
+KPX Z u -9
+KPX Z v -13
+KPX Z w -13
+
+KPX bracketleft J -9
+KPX bracketleft U -9
+
+KPX a quotedbl -33
+KPX a v -7
+
+KPX b quotedbl -14
+KPX b v -5
+KPX b x -7
+KPX b z -7
+
+KPX c quotedbl -5
+
+KPX e quotedbl -7
+KPX e v -6
+KPX e quoteright -39
+
+KPX f quotedbl 8
+KPX f parenright 10
+KPX f bracketright 9
+KPX f c -12
+KPX f braceright 9
+
+KPX h quotedbl -51
+KPX h quoteright -39
+
+KPX k c -10
+
+KPX o quotedbl -66
+KPX o v -7
+KPX o x -10
+KPX o z -8
+KPX o quoteright -39
+
+KPX r quotedbl 8
+KPX r comma -60
+KPX r a -20
+KPX r c -9
+KPX r f 7
+KPX r o -10
+KPX r t 24
+KPX r v 9
+KPX r w 8
+
+KPX t o -10
+
+KPX v quotedbl 7
+KPX v comma -52
+KPX v a -7
+KPX v c -6
+KPX v f 6
+KPX v o -7
+KPX v pi 5
+
+KPX w comma -61
+
+KPX x c -10
+KPX x o -10
+
+KPX z c -8
+KPX z o -8
+
+KPX braceleft J -10
+KPX braceleft U -10
+
+KPX quoteright h 16
+KPX quoteright k 16
+KPX quoteright l 16
+KPX quoteright o -63
+KPX quoteright s -55
+
+EndKernPairs
+EndKernData
+EndFontMetrics
+
+</document_content>
+</document>
+
+<document index="6">
+<source>METRXPRS/METRXPRS.BAS</source>
+<document_content>
+REM $DYNAMIC
+
+DECLARE SUB ArrangeMetrics (AFMfile$, OutFile$, MEQFile$)
+DECLARE SUB ProcError (ErrorName$)
+DECLARE SUB PrintHelp ()
+DECLARE SUB GetComline (DoArrangeMetrics!, AFMfile$, OutFile$, MEQFile$)
+DECLARE SUB PrintVisitCard ()
+DECLARE SUB GetUniques ()
+DECLARE SUB Comline (N, A$(), Max)
+DIM SHARED MEQ$(600, 2)
+DIM SHARED Bound$(3)
+DIM SHARED UNQ$(100, 6)
+DIM SHARED NumUNQ, NumMEQ, Ver$
+
+Ver$ = "1.1"
+
+' ON ERROR GOTO ErrFile
+' Checking for command line paramenters
+' and calling help if needed
+CALL GetComline(DoArrangeMetrics, AFMfile$, OutFile$, MEQFile$)
+' ArrangeMetricsing if needed
+IF DoArrangeMetrics THEN
+    CALL PrintVisitCard
+    CALL ArrangeMetrics(AFMfile$, OutFile$, MEQFile$)
+END IF
+END
+
+ErrFile:
+CALL ProcError(ERROR$)
+END
+
+REM $STATIC
+SUB ArrangeMetrics (AFMfile$, OutFile$, MEQFile$)
+    
+    ' ### EVALUATING EQUATIONS FILE
+    OPEN MEQFile$ FOR INPUT AS #1
+    index = 0
+    DO
+        LINE INPUT #1, strg$
+        strg$ = LTRIM$(RTRIM$(strg$))
+        IF strg$ <> "" THEN
+            MEQ$(index, 0) = RTRIM$(LTRIM$(LEFT$(strg$, INSTR(strg$, " ") - 1)))
+            MEQ$(index, 1) = RTRIM$(LTRIM$(RIGHT$(strg$, LEN(strg$) - LEN(MEQ$(index, 0)))))
+            index = index + 1
+        END IF
+    LOOP UNTIL EOF(1)
+    NumMEQ = index - 1
+    CLOSE #1
+    
+    CALL GetUniques
+    
+    ' ###
+    
+    ' EVALUATING METRICS FILE
+    
+    OPEN AFMfile$ FOR INPUT AS #1
+    
+    isMetrics% = 0
+    
+    DO
+        LINE INPUT #1, strg$
+        IF LEFT$(UCASE$(strg$), 14) = "ENDCHARMETRICS" THEN
+            isMetrics% = 0
+        END IF
+        
+        IF isMetrics% = 1 THEN
+            
+            LStrg = LEN(strg$)
+            
+            glyph$ = MID$(strg$, INSTR(strg$, " ; N ") + 5, INSTR(strg$, " ; B ") - INSTR(strg$, " ; N ") - 5)
+            Code$ = MID$(strg$, 3, INSTR(strg$, " ; WX ") - 3)
+            Width$ = MID$(strg$, INSTR(strg$, " ; WX ") + 6, INSTR(strg$, " ; N ") - INSTR(strg$, " ; WX ") - 6)
+            Bd$ = RIGHT$(strg$, LStrg - INSTR(strg$, " ; B ") - 4)
+            Bd$ = LEFT$(Bd$, LEN(Bd$) - 1)
+            
+            FOR BoundIndex = 0 TO 3
+                Bound$(BoundIndex) = LEFT$(Bd$, INSTR(Bd$, " ") - 1)
+                Bd$ = RIGHT$(Bd$, LEN(Bd$) - INSTR(Bd$, " "))
+            NEXT BoundIndex
+            
+            FOR index = 0 TO NumUNQ
+                REM IF LEN(glyph$) = 1 THEN PRINT "'"; glyph$; "' '"; UNQ$(index, 0); "'"
+                
+                IF UNQ$(index, 0) = glyph$ THEN
+                    UNQ$(index, 1) = Code$
+                    UNQ$(index, 2) = Width$
+                    UNQ$(index, 3) = Bound$(0)
+                    UNQ$(index, 4) = Bound$(1)
+                    UNQ$(index, 5) = Bound$(2)
+                    UNQ$(index, 6) = Bound$(3)
+                END IF
+            NEXT index
+            
+        END IF
+        
+        IF LEFT$(UCASE$(strg$), 16) = "STARTCHARMETRICS" THEN
+            isMetrics% = 1
+        END IF
+        
+    LOOP UNTIL EOF(1)
+    CLOSE #1
+    
+    ' ######
+    
+    OPEN AFMfile$ FOR INPUT AS #1
+    OPEN OutFile$ FOR OUTPUT AS #2
+    
+    isMetrics% = 0
+    
+    DO
+        LINE INPUT #1, strg$
+        IF LEFT$(UCASE$(strg$), 14) = "ENDCHARMETRICS" THEN
+            isMetrics% = 0
+        END IF
+        
+        IF isMetrics% = 0 THEN
+            PRINT #2, strg$
+        ELSE
+            LStrg = LEN(strg$)
+            
+            glyph$ = MID$(strg$, INSTR(strg$, " ; N ") + 5, INSTR(strg$, " ; B ") - INSTR(strg$, " ; N ") - 5)
+            Code$ = MID$(strg$, 3, INSTR(strg$, " ; WX ") - 3)
+            Width$ = MID$(strg$, INSTR(strg$, " ; WX ") + 6, INSTR(strg$, " ; N ") - INSTR(strg$, " ; WX ") - 6)
+            Bd$ = RIGHT$(strg$, LStrg - INSTR(strg$, " ; B ") - 4)
+            Bd$ = LEFT$(Bd$, LEN(Bd$) - 1)
+            
+            FOR BoundIndex = 0 TO 3
+                Bound$(BoundIndex) = LEFT$(Bd$, INSTR(Bd$, " ") - 1)
+                Bd$ = RIGHT$(Bd$, LEN(Bd$) - INSTR(Bd$, " "))
+            NEXT BoundIndex
+            
+            ' WRITING OUTPUT
+            FOR index = 0 TO NumMEQ
+                
+                IF MEQ$(index, 0) = glyph$ THEN
+                    
+                    Counter = Counter + 1
+                    
+                    FOR j = 0 TO NumUNQ
+                        IF UNQ$(j, 0) = MEQ$(index, 1) THEN
+                            Width$ = UNQ$(j, 2)
+                            Bound$(0) = UNQ$(j, 3)
+                            Bound$(2) = UNQ$(j, 5)
+                        END IF
+                    NEXT j
+                END IF
+                
+            NEXT index
+            
+            ' PRINT
+            PRINT #2, "C "; Code$; " ; WX "; Width$; " ; N "; glyph$;
+            PRINT #2, " ; B "; Bound$(0); " "; Bound$(1); " "; Bound$(2); " ";
+            PRINT #2, Bound$(3); " ;"
+            
+        END IF
+        
+        IF LEFT$(UCASE$(strg$), 16) = "STARTCHARMETRICS" THEN
+            isMetrics% = 1
+        END IF
+        
+    LOOP UNTIL EOF(1)
+    CLOSE #1
+    
+    
+    PRINT AFMfile$; " -> "; OutFile$; ": "; RTRIM$(LTRIM$(STR$(Counter))); " glyphs corrected."
+    END
+END SUB
+
+SUB Comline (NumArgs, Args$(), MaxArgs)
+    CONST TRUE = -1, FALSE = 0
+    
+    NumArgs = 0: In = FALSE
+    ' Get the command line using the COMMAND$ function
+    Cl$ = COMMAND$
+    L = LEN(Cl$)
+    ' Go through the command line a character at a time
+    FOR i = 1 TO L
+        C$ = MID$(Cl$, i, 1)
+        ' Test for character being a blank or a tab
+        IF (C$ <> " " AND C$ <> CHR$(9)) THEN
+            ' Neither blank nor tab; test if you're already inside
+            ' an argument
+            IF NOT In THEN
+                ' You've found the start of a new argument
+                ' Test for too many arguments
+                IF NumArgs = MaxArgs THEN EXIT FOR
+                NumArgs = NumArgs + 1
+                In = TRUE
+            END IF
+            ' Add the character to the current argument
+            Args$(NumArgs) = Args$(NumArgs) + C$
+        ELSE
+            ' Found a blank or a tab.
+            ' Set "Not in an argument" flag to FALSE
+            In = FALSE
+        END IF
+    NEXT i
+    
+END SUB
+
+SUB GetComline (DoArrangeMetrics, AFMfile$, OutFile$, MEQFile$)
+    DIM CmdLine$(1 TO 15)
+    CALL Comline(NoCmdLine, CmdLine$(), 15)
+    IF NoCmdLine < 3 OR NoCmdLine > 3 OR CmdLine$(1) = "/?" OR CmdLine$(1) = "/H" OR CmdLine$(1) = "-?" OR CmdLine$(1) = "-H" THEN
+        DoArrangeMetrics = 0
+        CALL PrintHelp
+    ELSE
+        DoArrangeMetrics = 1
+        AFMfile$ = CmdLine$(1)
+        OutFile$ = CmdLine$(2)
+        MEQFile$ = CmdLine$(3)
+    END IF
+END SUB
+
+SUB GetUniques ()
+    NumUNQ = 0
+    j = 0
+    FOR index = 0 TO NumMEQ
+        E$ = MEQ$(index, 1)
+        DO
+            isRepeat = 0
+            IF UNQ$(j, 0) = E$ THEN
+                isRepeat = 1
+                EXIT DO
+            END IF
+            j = j + 1
+        LOOP UNTIL j >= NumUNQ
+        
+        IF isRepeat = 0 THEN
+            NumUNQ = NumUNQ + 1
+            UNQ$(NumUNQ, 0) = E$
+        END IF
+    NEXT index
+    
+END SUB
+
+SUB PrintHelp ()
+    PRINT "------------------------------------------------------------------------------"
+    PRINT "METRXPRS v"; Ver$; " * Copyright (c) 1998-2015 by Adam Twardoch"
+    PRINT "Published under the Apache 2 license at http://github.com/twardoch"
+    PRINT "------------------------------------------------------------------------------"
+    PRINT "This program corrects the 'AFM' font metric files according to special"
+    PRINT "metrics equality (MEQ) tables so that the metrics of the 'child glyphs',"
+    PRINT "i.e. of composite glyphs like 'Aacute' will be adjusted to fit the metrics"
+    PRINT "of the 'parent glyphs', i.e. of the basic components (like 'A')."
+    PRINT "Designed for 'AFM' metric files generated by FontLab 3.0. No warranty."
+    PRINT "------------------------------------------------------------------------------"
+    PRINT "SYNTAX:    METRXPRS.EXE <AFM-INFILE> <AFM-OUTFILE> <EQ-FILE>"
+    PRINT "WHERE:     <AFM-INFILE>     is the font metric file to be corrected"
+    PRINT "           <AFM-OUTFILE>    is the target font metric file"
+    PRINT "           <MEQ-FILE>       is the table of equalities"
+    PRINT "EXAMPLE:   METRXPRS.EXE INPUT.AFM OUTPUT.AFM ANSI.MEQ"
+    PRINT "------------------------------------------------------------------------------"
+    PRINT "SYNTAX OF THE MEQ EQUALITY FILE:"
+    PRINT "           <child glyphname><space><parent glyphname><enter>"
+    PRINT "           <child glyphname><space><parent glyphname><enter>"
+    PRINT "           ..."
+    PRINT "------------------------------------------------------------------------------"
+END SUB
+
+SUB PrintVisitCard ()
+    PRINT "METRXPRS v"; Ver$; " * Copyright (c) 1998-2015 by Adam Twardoch"
+    PRINT "Type METRXPRS /? for help"
+END SUB
+
+SUB ProcError (ErrorName$)
+    PRINT "Error: "; ErrorName$
+    END
+END SUB
+
+
+</document_content>
+</document>
+
+<document index="7">
+<source>METRXPRS/ORIG.AFM</source>
+<document_content>
+StartFontMetrics 2.0
+Comment Panose 2 0 0 0 0 0 0 0 0 0
+FullName Roboto
+FontName Roboto-Regular
+FamilyName Roboto
+Weight Normal
+Notice Copyright 2011 Google Inc. All Rights Reserved.
+IsFixedPitch false
+ItalicAngle 0.00
+FontBBox -49 -250 974 947
+Ascender 750
+Descender -250
+XHeight 528
+CapHeight 711
+UnderlinePosition -200
+UnderlineThickness 100
+EncodingScheme FontSpecific
+StartCharMetrics 382
+C 1 ; WX 0 ; N NULL ; B 0 0 0 0 ;
+C 13 ; WX 248 ; N CR ; B 0 0 0 0 ;
+C 32 ; WX 248 ; N space ; B 0 0 0 0 ;
+C 33 ; WX 257 ; N exclam ; B 78 -5 185 711 ;
+C 34 ; WX 320 ; N quotedbl ; B 66 509 267 750 ;
+C 35 ; WX 616 ; N numbersign ; B 58 0 603 711 ;
+C 36 ; WX 562 ; N dollar ; B 54 -102 508 826 ;
+C 37 ; WX 732 ; N percent ; B 51 -10 689 721 ;
+C 38 ; WX 622 ; N ampersand ; B 49 -10 619 721 ;
+C 39 ; WX 174 ; N quotesingle ; B 50 516 124 750 ;
+C 40 ; WX 342 ; N parenleft ; B 65 -229 323 802 ;
+C 41 ; WX 348 ; N parenright ; B 19 -229 277 802 ;
+C 42 ; WX 431 ; N asterisk ; B 14 297 417 711 ;
+C 43 ; WX 567 ; N plus ; B 38 71 525 589 ;
+C 44 ; WX 196 ; N comma ; B 14 -142 150 107 ;
+C 45 ; WX 276 ; N hyphen ; B 18 265 256 339 ;
+C 46 ; WX 263 ; N period ; B 70 -5 183 102 ;
+C 47 ; WX 412 ; N slash ; B 9 -61 383 711 ;
+C 48 ; WX 562 ; N zero ; B 56 -10 505 721 ;
+C 49 ; WX 562 ; N one ; B 83 0 356 714 ;
+C 50 ; WX 562 ; N two ; B 45 0 525 721 ;
+C 51 ; WX 562 ; N three ; B 46 -10 497 721 ;
+C 52 ; WX 562 ; N four ; B 26 0 539 711 ;
+C 53 ; WX 562 ; N five ; B 75 -10 522 711 ;
+C 54 ; WX 562 ; N six ; B 64 -10 514 711 ;
+C 55 ; WX 562 ; N seven ; B 38 0 518 711 ;
+C 56 ; WX 562 ; N eight ; B 55 -10 507 721 ;
+C 57 ; WX 562 ; N nine ; B 49 0 496 721 ;
+C 58 ; WX 242 ; N colon ; B 65 -5 178 533 ;
+C 59 ; WX 211 ; N semicolon ; B 20 -142 167 533 ;
+C 60 ; WX 508 ; N less ; B 35 95 435 536 ;
+C 61 ; WX 549 ; N equal ; B 74 195 481 476 ;
+C 62 ; WX 522 ; N greater ; B 65 96 482 537 ;
+C 63 ; WX 472 ; N question ; B 37 -5 433 721 ;
+C 64 ; WX 898 ; N at ; B 52 -221 854 699 ;
+C 65 ; WX 652 ; N A ; B 14 0 639 711 ;
+C 66 ; WX 623 ; N B ; B 83 0 566 711 ;
+C 67 ; WX 651 ; N C ; B 58 -10 605 721 ;
+C 68 ; WX 656 ; N D ; B 83 0 597 711 ;
+C 69 ; WX 568 ; N E ; B 83 0 534 711 ;
+C 70 ; WX 553 ; N F ; B 83 0 523 711 ;
+C 71 ; WX 681 ; N G ; B 60 -10 607 721 ;
+C 72 ; WX 713 ; N H ; B 83 0 629 711 ;
+C 73 ; WX 272 ; N I ; B 89 0 183 711 ;
+C 74 ; WX 552 ; N J ; B 26 -10 475 711 ;
+C 75 ; WX 627 ; N K ; B 83 0 627 711 ;
+C 76 ; WX 538 ; N L ; B 83 0 514 711 ;
+C 77 ; WX 873 ; N M ; B 83 0 790 711 ;
+C 78 ; WX 713 ; N N ; B 83 0 629 711 ;
+C 79 ; WX 687 ; N O ; B 58 -10 629 721 ;
+C 80 ; WX 631 ; N P ; B 83 0 594 711 ;
+C 81 ; WX 687 ; N Q ; B 53 -120 628 721 ;
+C 82 ; WX 616 ; N R ; B 82 0 598 711 ;
+C 83 ; WX 593 ; N S ; B 39 -10 556 721 ;
+C 84 ; WX 597 ; N T ; B 24 0 574 711 ;
+C 85 ; WX 648 ; N U ; B 68 -10 583 711 ;
+C 86 ; WX 636 ; N V ; B 14 0 624 711 ;
+C 87 ; WX 887 ; N W ; B 30 0 866 711 ;
+C 88 ; WX 627 ; N X ; B 28 0 601 711 ;
+C 89 ; WX 601 ; N Y ; B 7 0 591 711 ;
+C 90 ; WX 599 ; N Z ; B 42 0 560 711 ;
+C 91 ; WX 265 ; N bracketleft ; B 71 -152 255 812 ;
+C 92 ; WX 410 ; N backslash ; B 20 -61 402 711 ;
+C 93 ; WX 265 ; N bracketright ; B 4 -152 189 812 ;
+C 94 ; WX 418 ; N asciicircum ; B 31 356 385 711 ;
+C 95 ; WX 451 ; N underscore ; B 2 -74 449 0 ;
+C 96 ; WX 309 ; N grave ; B 28 605 231 749 ;
+C 97 ; WX 544 ; N a ; B 53 -10 489 538 ;
+C 98 ; WX 561 ; N b ; B 68 -10 516 750 ;
+C 99 ; WX 523 ; N c ; B 45 -10 490 538 ;
+C 100 ; WX 564 ; N d ; B 46 -10 492 750 ;
+C 101 ; WX 530 ; N e ; B 45 -10 494 538 ;
+C 102 ; WX 347 ; N f ; B 29 0 349 760 ;
+C 103 ; WX 561 ; N g ; B 47 -208 493 538 ;
+C 104 ; WX 551 ; N h ; B 68 0 484 750 ;
+C 105 ; WX 243 ; N i ; B 69 0 176 721 ;
+C 106 ; WX 239 ; N j ; B -32 -213 168 721 ;
+C 107 ; WX 507 ; N k ; B 69 0 506 750 ;
+C 108 ; WX 243 ; N l ; B 76 0 167 750 ;
+C 109 ; WX 876 ; N m ; B 68 0 809 538 ;
+C 110 ; WX 552 ; N n ; B 68 0 484 538 ;
+C 111 ; WX 570 ; N o ; B 44 -10 525 538 ;
+C 112 ; WX 561 ; N p ; B 68 -203 515 538 ;
+C 113 ; WX 568 ; N q ; B 46 -203 492 538 ;
+C 114 ; WX 338 ; N r ; B 68 0 324 538 ;
+C 115 ; WX 516 ; N s ; B 46 -10 466 538 ;
+C 116 ; WX 327 ; N t ; B 4 -10 292 656 ;
+C 117 ; WX 551 ; N u ; B 66 -10 482 528 ;
+C 118 ; WX 484 ; N v ; B 16 0 466 528 ;
+C 119 ; WX 751 ; N w ; B 21 0 728 528 ;
+C 120 ; WX 496 ; N x ; B 20 0 474 528 ;
+C 121 ; WX 473 ; N y ; B 11 -213 461 528 ;
+C 122 ; WX 496 ; N z ; B 43 0 462 528 ;
+C 123 ; WX 338 ; N braceleft ; B 31 -179 327 780 ;
+C 124 ; WX 244 ; N bar ; B 85 -132 158 711 ;
+C 125 ; WX 338 ; N braceright ; B 9 -179 306 780 ;
+C 126 ; WX 680 ; N asciitilde ; B 64 196 617 392 ;
+C 128 ; WX 248 ; N uni00A0 ; B 0 0 0 0 ;
+C 129 ; WX 244 ; N exclamdown ; B 68 -176 175 538 ;
+C 130 ; WX 547 ; N cent ; B 51 -120 497 644 ;
+C 131 ; WX 581 ; N sterling ; B 44 0 551 721 ;
+C 132 ; WX 713 ; N currency ; B 51 -13 669 618 ;
+C 133 ; WX 605 ; N yen ; B 15 0 584 711 ;
+C 134 ; WX 240 ; N brokenbar ; B 72 -132 163 711 ;
+C 135 ; WX 613 ; N section ; B 44 -242 559 721 ;
+C 136 ; WX 418 ; N dieresis ; B 50 617 367 721 ;
+C 137 ; WX 786 ; N copyright ; B 44 -10 737 721 ;
+C 138 ; WX 447 ; N ordfeminine ; B 72 337 382 721 ;
+C 139 ; WX 469 ; N guillemotleft ; B 50 74 424 462 ;
+C 140 ; WX 554 ; N logicalnot ; B 62 183 468 391 ;
+C 141 ; WX 276 ; N uni00AD ; B 18 265 256 339 ;
+C 142 ; WX 786 ; N registered ; B 44 -10 737 721 ;
+C 143 ; WX 458 ; N macron ; B 59 641 407 711 ;
+C 144 ; WX 374 ; N degree ; B 63 469 311 721 ;
+C 145 ; WX 534 ; N plusminus ; B 47 0 495 619 ;
+C 146 ; WX 367 ; N twosuperior ; B 32 326 333 716 ;
+C 147 ; WX 367 ; N threesuperior ; B 30 320 325 716 ;
+C 148 ; WX 313 ; N acute ; B 60 605 264 749 ;
+C 149 ; WX 566 ; N mu ; B 75 -203 491 528 ;
+C 150 ; WX 489 ; N paragraph ; B 33 0 406 711 ;
+C 151 ; WX 261 ; N periodcentered ; B 72 302 184 411 ;
+C 152 ; WX 248 ; N cedilla ; B 57 -212 208 0 ;
+C 153 ; WX 367 ; N onesuperior ; B 60 329 242 714 ;
+C 154 ; WX 455 ; N ordmasculine ; B 60 337 394 721 ;
+C 155 ; WX 469 ; N guillemotright ; B 50 74 434 463 ;
+C 156 ; WX 732 ; N onequarter ; B 42 0 696 709 ;
+C 157 ; WX 776 ; N onehalf ; B 39 0 723 709 ;
+C 158 ; WX 778 ; N threequarters ; B 54 0 741 716 ;
+C 159 ; WX 473 ; N questiondown ; B 33 -188 434 538 ;
+C 160 ; WX 652 ; N Agrave ; B 14 0 639 900 ;
+C 161 ; WX 652 ; N Aacute ; B 14 0 639 900 ;
+C 162 ; WX 652 ; N Acircumflex ; B 14 0 639 901 ;
+C 163 ; WX 652 ; N Atilde ; B 14 0 639 892 ;
+C 164 ; WX 652 ; N Adieresis ; B 14 0 639 873 ;
+C 165 ; WX 652 ; N Aring ; B 14 0 639 946 ;
+C 166 ; WX 935 ; N AE ; B -7 0 917 711 ;
+C 167 ; WX 651 ; N Ccedilla ; B 58 -217 605 721 ;
+C 168 ; WX 568 ; N Egrave ; B 83 0 534 906 ;
+C 169 ; WX 568 ; N Eacute ; B 83 0 534 906 ;
+C 170 ; WX 568 ; N Ecircumflex ; B 83 0 534 907 ;
+C 171 ; WX 568 ; N Edieresis ; B 83 0 534 878 ;
+C 172 ; WX 272 ; N Igrave ; B -16 0 188 906 ;
+C 173 ; WX 272 ; N Iacute ; B 86 0 290 906 ;
+C 174 ; WX 272 ; N Icircumflex ; B -11 0 284 907 ;
+C 175 ; WX 272 ; N Idieresis ; B -21 0 296 878 ;
+C 176 ; WX 670 ; N Eth ; B 18 0 611 711 ;
+C 177 ; WX 713 ; N Ntilde ; B 83 0 629 892 ;
+C 178 ; WX 687 ; N Ograve ; B 58 -10 629 901 ;
+C 179 ; WX 687 ; N Oacute ; B 58 -10 629 901 ;
+C 180 ; WX 687 ; N Ocircumflex ; B 58 -10 629 902 ;
+C 181 ; WX 687 ; N Otilde ; B 58 -10 629 893 ;
+C 182 ; WX 687 ; N Odieresis ; B 58 -10 629 874 ;
+C 183 ; WX 533 ; N multiply ; B 43 101 483 548 ;
+C 184 ; WX 687 ; N Oslash ; B 58 -45 639 740 ;
+C 185 ; WX 648 ; N Ugrave ; B 68 -10 583 900 ;
+C 186 ; WX 648 ; N Uacute ; B 68 -10 583 900 ;
+C 187 ; WX 648 ; N Ucircumflex ; B 68 -10 583 901 ;
+C 188 ; WX 648 ; N Udieresis ; B 68 -10 583 873 ;
+C 189 ; WX 601 ; N Yacute ; B 7 0 591 900 ;
+C 190 ; WX 591 ; N Thorn ; B 81 0 545 711 ;
+C 191 ; WX 595 ; N germandbls ; B 68 -10 552 759 ;
+C 192 ; WX 544 ; N agrave ; B 53 -10 489 749 ;
+C 193 ; WX 544 ; N aacute ; B 53 -10 489 749 ;
+C 194 ; WX 544 ; N acircumflex ; B 53 -10 489 750 ;
+C 195 ; WX 544 ; N atilde ; B 53 -10 489 740 ;
+C 196 ; WX 544 ; N adieresis ; B 53 -10 489 721 ;
+C 197 ; WX 544 ; N aring ; B 53 -10 489 794 ;
+C 198 ; WX 844 ; N ae ; B 38 -10 811 538 ;
+C 199 ; WX 523 ; N ccedilla ; B 45 -217 490 538 ;
+C 200 ; WX 530 ; N egrave ; B 45 -10 494 749 ;
+C 201 ; WX 530 ; N eacute ; B 45 -10 494 749 ;
+C 202 ; WX 530 ; N ecircumflex ; B 45 -10 494 750 ;
+C 203 ; WX 530 ; N edieresis ; B 45 -10 494 721 ;
+C 204 ; WX 247 ; N igrave ; B -28 0 175 749 ;
+C 205 ; WX 247 ; N iacute ; B 73 0 277 749 ;
+C 206 ; WX 247 ; N icircumflex ; B -24 0 271 750 ;
+C 207 ; WX 247 ; N idieresis ; B -33 0 284 721 ;
+C 208 ; WX 586 ; N eth ; B 62 -10 522 771 ;
+C 209 ; WX 552 ; N ntilde ; B 68 0 484 740 ;
+C 210 ; WX 570 ; N ograve ; B 44 -10 525 749 ;
+C 211 ; WX 570 ; N oacute ; B 44 -10 525 749 ;
+C 212 ; WX 570 ; N ocircumflex ; B 44 -10 525 750 ;
+C 213 ; WX 570 ; N otilde ; B 44 -10 525 740 ;
+C 214 ; WX 570 ; N odieresis ; B 44 -10 525 721 ;
+C 215 ; WX 571 ; N divide ; B 35 84 522 591 ;
+C 216 ; WX 566 ; N oslash ; B 44 -65 525 590 ;
+C 217 ; WX 551 ; N ugrave ; B 66 -10 482 749 ;
+C 218 ; WX 551 ; N uacute ; B 66 -10 482 749 ;
+C 219 ; WX 551 ; N ucircumflex ; B 66 -10 482 750 ;
+C 220 ; WX 551 ; N udieresis ; B 66 -10 482 721 ;
+C 221 ; WX 473 ; N yacute ; B 11 -213 461 749 ;
+C 222 ; WX 576 ; N thorn ; B 73 -203 519 750 ;
+C 223 ; WX 473 ; N ydieresis ; B 11 -213 461 721 ;
+C 224 ; WX 652 ; N Amacron ; B 14 0 639 866 ;
+C 225 ; WX 544 ; N amacron ; B 53 -10 489 715 ;
+C 226 ; WX 652 ; N Abreve ; B 14 0 639 882 ;
+C 227 ; WX 544 ; N abreve ; B 53 -10 489 730 ;
+C 228 ; WX 652 ; N Aogonek ; B 14 -211 639 711 ;
+C 229 ; WX 544 ; N aogonek ; B 53 -211 489 538 ;
+C 230 ; WX 651 ; N Cacute ; B 58 -10 605 917 ;
+C 231 ; WX 523 ; N cacute ; B 45 -10 490 749 ;
+C 232 ; WX 651 ; N Ccircumflex ; B 58 -10 605 917 ;
+C 233 ; WX 523 ; N ccircumflex ; B 45 -10 490 750 ;
+C 234 ; WX 651 ; N Cdotaccent ; B 58 -10 605 887 ;
+C 235 ; WX 523 ; N cdotaccent ; B 45 -10 490 720 ;
+C 236 ; WX 651 ; N Ccaron ; B 58 -10 605 917 ;
+C 237 ; WX 523 ; N ccaron ; B 45 -10 490 750 ;
+C 238 ; WX 656 ; N Dcaron ; B 83 0 597 907 ;
+C 239 ; WX 637 ; N dcaron ; B 46 -10 646 751 ;
+C 240 ; WX 670 ; N Dcroat ; B 18 0 611 711 ;
+C 241 ; WX 579 ; N dcroat ; B 46 -10 584 750 ;
+C 242 ; WX 568 ; N Emacron ; B 83 0 534 872 ;
+C 243 ; WX 530 ; N emacron ; B 45 -10 494 715 ;
+C 244 ; WX 568 ; N Ebreve ; B 83 0 534 888 ;
+C 245 ; WX 530 ; N ebreve ; B 45 -10 494 730 ;
+C 246 ; WX 568 ; N Edotaccent ; B 83 0 534 877 ;
+C 247 ; WX 530 ; N edotaccent ; B 45 -10 494 720 ;
+C 248 ; WX 568 ; N Eogonek ; B 83 -211 534 711 ;
+C 249 ; WX 530 ; N eogonek ; B 45 -199 494 538 ;
+C 250 ; WX 568 ; N Ecaron ; B 83 0 534 907 ;
+C 251 ; WX 530 ; N ecaron ; B 45 -10 494 750 ;
+C 252 ; WX 681 ; N Gcircumflex ; B 60 -10 607 917 ;
+C 253 ; WX 561 ; N gcircumflex ; B 47 -208 493 750 ;
+C 254 ; WX 681 ; N Gbreve ; B 60 -10 607 898 ;
+C 255 ; WX 561 ; N gbreve ; B 47 -208 493 730 ;
+C -1 ; WX 562 ; N Euro ; B 46 -10 514 721 ;
+C -1 ; WX 681 ; N Gdotaccent ; B 60 -10 607 887 ;
+C -1 ; WX 700 ; N Hbar ; B 14 0 691 711 ;
+C -1 ; WX 713 ; N Hcircumflex ; B 83 0 629 907 ;
+C -1 ; WX 824 ; N IJ ; B 89 -10 747 711 ;
+C -1 ; WX 272 ; N Idotaccent ; B 83 0 190 877 ;
+C -1 ; WX 272 ; N Imacron ; B -36 0 312 872 ;
+C -1 ; WX 272 ; N Iogonek ; B 12 -207 184 711 ;
+C -1 ; WX 272 ; N Itilde ; B -36 0 310 897 ;
+C -1 ; WX 552 ; N Jcircumflex ; B 26 -10 563 901 ;
+C -1 ; WX 538 ; N Lacute ; B 79 0 514 898 ;
+C -1 ; WX 538 ; N Lcaron ; B 83 0 514 711 ;
+C -1 ; WX 538 ; N Ldot ; B 83 0 514 711 ;
+C -1 ; WX 539 ; N Lslash ; B 17 0 513 711 ;
+C -1 ; WX 713 ; N Nacute ; B 83 0 629 900 ;
+C -1 ; WX 713 ; N Ncaron ; B 83 0 629 901 ;
+C -1 ; WX 954 ; N OE ; B 51 -10 879 721 ;
+C -1 ; WX 687 ; N Obreve ; B 58 -10 629 883 ;
+C -1 ; WX 687 ; N Ohungarumlaut ; B 58 -10 629 902 ;
+C -1 ; WX 687 ; N Omacron ; B 58 -10 629 867 ;
+C -1 ; WX 616 ; N Racute ; B 82 0 598 900 ;
+C -1 ; WX 616 ; N Rcaron ; B 82 0 598 901 ;
+C -1 ; WX 593 ; N Sacute ; B 39 -10 556 901 ;
+C -1 ; WX 593 ; N Scaron ; B 39 -10 556 902 ;
+C -1 ; WX 593 ; N Scedilla ; B 39 -212 556 721 ;
+C -1 ; WX 593 ; N Scircumflex ; B 39 -10 556 902 ;
+C -1 ; WX 597 ; N Tbar ; B 24 0 574 711 ;
+C -1 ; WX 597 ; N Tcaron ; B 24 0 574 901 ;
+C -1 ; WX 648 ; N Ubreve ; B 68 -10 583 882 ;
+C -1 ; WX 648 ; N Uhungarumlaut ; B 68 -10 583 901 ;
+C -1 ; WX 648 ; N Umacron ; B 68 -10 583 866 ;
+C -1 ; WX 648 ; N Uogonek ; B 68 -190 583 711 ;
+C -1 ; WX 648 ; N Uring ; B 68 -10 583 946 ;
+C -1 ; WX 648 ; N Utilde ; B 68 -10 583 892 ;
+C -1 ; WX 887 ; N Wacute ; B 30 0 866 900 ;
+C -1 ; WX 887 ; N Wcircumflex ; B 30 0 866 901 ;
+C -1 ; WX 887 ; N Wdieresis ; B 30 0 866 873 ;
+C -1 ; WX 887 ; N Wgrave ; B 30 0 866 900 ;
+C -1 ; WX 601 ; N Ycircumflex ; B 7 0 591 901 ;
+C -1 ; WX 601 ; N Ydieresis ; B 7 0 591 873 ;
+C -1 ; WX 599 ; N Zacute ; B 42 0 560 900 ;
+C -1 ; WX 599 ; N Zcaron ; B 42 0 560 901 ;
+C -1 ; WX 599 ; N Zdotaccent ; B 42 0 560 871 ;
+C -1 ; WX 563 ; N approxequal ; B 49 137 505 494 ;
+C -1 ; WX 427 ; N breve ; B 63 599 355 730 ;
+C -1 ; WX 337 ; N bullet ; B 67 261 267 474 ;
+C -1 ; WX 444 ; N caron ; B 68 611 370 750 ;
+C -1 ; WX 471 ; N circumflex ; B 83 611 378 750 ;
+C -1 ; WX 551 ; N dagger ; B 34 0 518 711 ;
+C -1 ; WX 570 ; N daggerdbl ; B 42 -203 525 711 ;
+C -1 ; WX 243 ; N dotaccent ; B 69 616 176 720 ;
+C -1 ; WX 247 ; N dotlessi ; B 76 0 167 528 ;
+C -1 ; WX 669 ; N ellipsis ; B 72 -5 601 102 ;
+C -1 ; WX 781 ; N emdash ; B 71 318 723 392 ;
+C -1 ; WX 656 ; N endash ; B 80 318 569 392 ;
+C -1 ; WX 636 ; N estimated ; B 74 -10 572 538 ;
+C -1 ; WX 619 ; N f_f ; B 29 0 620 760 ;
+C -1 ; WX 854 ; N f_f_i ; B 29 0 774 760 ;
+C -1 ; WX 854 ; N f_f_l ; B 29 0 774 760 ;
+C -1 ; WX 554 ; N fi ; B 15 0 475 760 ;
+C -1 ; WX 568 ; N fl ; B 29 0 489 760 ;
+C -1 ; WX 340 ; N florin ; B -14 -213 342 760 ;
+C -1 ; WX 455 ; N fraction ; B 29 54 427 642 ;
+C -1 ; WX 553 ; N franc ; B 9 0 523 711 ;
+C -1 ; WX 561 ; N gdotaccent ; B 47 -208 493 720 ;
+C -1 ; WX 523 ; N greaterequal ; B 65 0 482 539 ;
+C -1 ; WX 300 ; N guilsinglleft ; B 53 75 266 463 ;
+C -1 ; WX 300 ; N guilsinglright ; B 43 74 257 463 ;
+C -1 ; WX 565 ; N hbar ; B 0 0 499 750 ;
+C -1 ; WX 551 ; N hcircumflex ; B 68 0 484 907 ;
+C -1 ; WX 373 ; N hungarumlaut ; B 46 602 396 750 ;
+C -1 ; WX 481 ; N ij ; B 69 -213 411 721 ;
+C -1 ; WX 247 ; N imacron ; B -49 0 300 714 ;
+C -1 ; WX 1028 ; N infinity ; B 48 -10 974 538 ;
+C -1 ; WX 256 ; N integral ; B -39 -213 319 760 ;
+C -1 ; WX 243 ; N iogonek ; B -2 -211 176 721 ;
+C -1 ; WX 247 ; N itilde ; B -48 0 297 739 ;
+C -1 ; WX 251 ; N jcircumflex ; B -37 -213 278 730 ;
+C -1 ; WX 556 ; N kgreenlandic ; B 75 0 531 528 ;
+C -1 ; WX 243 ; N lacute ; B 72 0 275 947 ;
+C -1 ; WX 316 ; N lcaron ; B 76 0 334 751 ;
+C -1 ; WX 350 ; N ldot ; B 76 0 328 750 ;
+C -1 ; WX 508 ; N lessequal ; B 30 1 438 530 ;
+C -1 ; WX 581 ; N lira ; B 44 0 551 721 ;
+C -1 ; WX 248 ; N longs ; B 78 0 313 760 ;
+C -1 ; WX 504 ; N lozenge ; B 21 0 482 711 ;
+C -1 ; WX 270 ; N lslash ; B 17 0 255 750 ;
+C -1 ; WX 571 ; N minus ; B 82 318 490 392 ;
+C -1 ; WX 552 ; N nacute ; B 68 0 484 749 ;
+C -1 ; WX 552 ; N napostrophe ; B -33 0 484 752 ;
+C -1 ; WX 552 ; N ncaron ; B 68 0 484 750 ;
+C -1 ; WX 549 ; N notequal ; B 74 76 481 604 ;
+C -1 ; WX 570 ; N obreve ; B 44 -10 525 730 ;
+C -1 ; WX 908 ; N oe ; B 47 -10 875 538 ;
+C -1 ; WX 271 ; N ogonek ; B 24 -211 196 27 ;
+C -1 ; WX 570 ; N ohungarumlaut ; B 44 -10 525 750 ;
+C -1 ; WX 570 ; N omacron ; B 44 -10 525 715 ;
+C -1 ; WX 570 ; N partialdiff ; B 52 -10 524 740 ;
+C -1 ; WX 958 ; N perthousand ; B 33 -10 917 721 ;
+C -1 ; WX 820 ; N peseta ; B 82 -10 751 711 ;
+C -1 ; WX 596 ; N pi ; B 20 -6 580 528 ;
+C -1 ; WX 694 ; N product ; B 83 -104 612 711 ;
+C -1 ; WX 344 ; N quotedblbase ; B 18 -147 299 120 ;
+C -1 ; WX 354 ; N quotedblleft ; B 51 524 341 759 ;
+C -1 ; WX 357 ; N quotedblright ; B 29 511 315 750 ;
+C -1 ; WX 200 ; N quoteleft ; B 47 524 184 759 ;
+C -1 ; WX 200 ; N quoteright ; B 23 511 160 750 ;
+C -1 ; WX 199 ; N quotesinglbase ; B 18 -138 154 88 ;
+C -1 ; WX 338 ; N racute ; B 68 0 353 749 ;
+C -1 ; WX 596 ; N radical ; B 31 0 574 711 ;
+C -1 ; WX 338 ; N rcaron ; B 48 0 350 750 ;
+C -1 ; WX 334 ; N ring ; B 59 588 269 789 ;
+C -1 ; WX 516 ; N sacute ; B 46 -10 466 749 ;
+C -1 ; WX 516 ; N scaron ; B 46 -10 466 750 ;
+C -1 ; WX 516 ; N scedilla ; B 46 -216 466 538 ;
+C -1 ; WX 516 ; N scircumflex ; B 46 -10 466 750 ;
+C -1 ; WX 585 ; N summation ; B 34 -131 583 711 ;
+C -1 ; WX 327 ; N tbar ; B -6 -10 305 656 ;
+C -1 ; WX 346 ; N tcaron ; B 4 -10 365 809 ;
+C -1 ; WX 472 ; N tilde ; B 60 606 405 738 ;
+C -1 ; WX 625 ; N trademark ; B 50 449 527 711 ;
+C -1 ; WX 551 ; N ubreve ; B 66 -10 482 730 ;
+C -1 ; WX 551 ; N uhungarumlaut ; B 66 -10 506 750 ;
+C -1 ; WX 551 ; N umacron ; B 66 -10 482 715 ;
+C -1 ; WX 681 ; N uni0122 ; B 60 -250 607 721 ;
+C -1 ; WX 561 ; N uni0123 ; B 47 -208 493 822 ;
+C -1 ; WX 627 ; N uni0136 ; B 83 -250 627 711 ;
+C -1 ; WX 507 ; N uni0137 ; B 69 -250 506 750 ;
+C -1 ; WX 538 ; N uni013B ; B 83 -250 514 711 ;
+C -1 ; WX 243 ; N uni013C ; B 42 -250 167 750 ;
+C -1 ; WX 713 ; N uni0145 ; B 83 -250 629 711 ;
+C -1 ; WX 552 ; N uni0146 ; B 68 -250 484 538 ;
+C -1 ; WX 616 ; N uni0156 ; B 82 -250 598 711 ;
+C -1 ; WX 338 ; N uni0157 ; B 41 -250 324 538 ;
+C -1 ; WX 597 ; N uni0162 ; B 24 -212 574 711 ;
+C -1 ; WX 327 ; N uni0163 ; B 4 -212 325 656 ;
+C -1 ; WX 593 ; N uni0218 ; B 39 -250 556 721 ;
+C -1 ; WX 516 ; N uni0219 ; B 46 -250 466 538 ;
+C -1 ; WX 597 ; N uni021A ; B 24 -250 574 711 ;
+C -1 ; WX 327 ; N uni021B ; B 4 -250 292 656 ;
+C -1 ; WX 251 ; N uni0237 ; B -37 -213 174 528 ;
+C -1 ; WX 458 ; N uni02C9 ; B 59 641 407 711 ;
+C -1 ; WX 705 ; N uni0394 ; B 15 0 681 711 ;
+C -1 ; WX 665 ; N uni03A9 ; B 55 0 599 721 ;
+C -1 ; WX 566 ; N uni03BC ; B 75 -203 491 528 ;
+C -1 ; WX 476 ; N uni2113 ; B 51 -10 427 759 ;
+C -1 ; WX 551 ; N uogonek ; B 66 -211 487 528 ;
+C -1 ; WX 551 ; N uring ; B 66 -10 482 794 ;
+C -1 ; WX 551 ; N utilde ; B 66 -10 482 740 ;
+C -1 ; WX 751 ; N wacute ; B 21 0 728 749 ;
+C -1 ; WX 751 ; N wcircumflex ; B 21 0 728 750 ;
+C -1 ; WX 751 ; N wdieresis ; B 21 0 728 721 ;
+C -1 ; WX 751 ; N wgrave ; B 21 0 728 749 ;
+C -1 ; WX 473 ; N ycircumflex ; B 11 -213 461 750 ;
+C -1 ; WX 496 ; N zacute ; B 43 0 462 749 ;
+C -1 ; WX 496 ; N zcaron ; B 43 0 462 750 ;
+C -1 ; WX 496 ; N zdotaccent ; B 43 0 462 720 ;
+EndCharMetrics
+StartKernData
+StartKernPairs 259
+KPX space T -20
+
+KPX quotedbl quotedbl -52
+KPX quotedbl A -59
+KPX quotedbl a -24
+KPX quotedbl c -29
+KPX quotedbl m -10
+KPX quotedbl o -30
+KPX quotedbl s -39
+KPX quotedbl w 5
+
+KPX parenleft V 10
+KPX parenleft W 9
+KPX parenleft Y 11
+
+KPX comma quotedbl -83
+
+KPX slash slash -109
+
+KPX A quotedbl -59
+KPX A question -30
+KPX A C -5
+KPX A T -63
+KPX A U -8
+KPX A V -42
+KPX A W -34
+KPX A Y -46
+KPX A o -6
+KPX A t -8
+KPX A u -5
+KPX A v -24
+KPX A w -16
+KPX A z 6
+
+KPX B T -13
+KPX B V -12
+KPX B Y -27
+
+KPX C parenright -13
+KPX C T -14
+KPX C bracketright -6
+KPX C braceright -8
+
+KPX D comma -50
+KPX D A -10
+KPX D T -13
+KPX D V -11
+KPX D X -11
+KPX D Y -21
+KPX D Z -11
+KPX D AE -16
+
+KPX E T 10
+KPX E c -9
+KPX E f -9
+KPX E o -9
+KPX E u -8
+KPX E v -13
+KPX E w -11
+
+KPX F comma -114
+KPX F A -83
+KPX F J -129
+KPX F T 10
+KPX F a -17
+KPX F c -10
+KPX F o -10
+KPX F r -13
+KPX F u -11
+KPX F v -12
+
+KPX H A 9
+KPX H T -14
+KPX H X 8
+KPX H Y -14
+
+KPX J A -11
+
+KPX K hyphen -31
+KPX K C -15
+KPX K c -13
+KPX K m -11
+KPX K o -13
+KPX K u -11
+KPX K v -20
+KPX K w -31
+
+KPX L quotedbl -164
+KPX L A 9
+KPX L C -32
+KPX L T -134
+KPX L U -26
+KPX L V -85
+KPX L W -70
+KPX L Y -117
+KPX L u -21
+KPX L v -65
+KPX L w -45
+
+KPX P comma -158
+KPX P A -67
+KPX P J -98
+KPX P X -15
+KPX P Z -13
+KPX P a -5
+KPX P c -6
+KPX P o -6
+KPX P t 7
+KPX P v 7
+KPX P AE -47
+
+KPX Q T -21
+KPX Q V -14
+KPX Q W -10
+KPX Q Y -17
+
+KPX R T -39
+KPX R V -9
+KPX R Y -23
+
+KPX T space -20
+KPX T comma -106
+KPX T hyphen -113
+KPX T A -39
+KPX T C -14
+KPX T J -117
+KPX T S -8
+KPX T T 8
+KPX T V 8
+KPX T W 7
+KPX T Y 8
+KPX T a -55
+KPX T c -48
+KPX T m -53
+KPX T o -48
+KPX T r -37
+KPX T s -57
+KPX T u -46
+KPX T v -35
+KPX T w -28
+KPX T x -38
+KPX T z -29
+KPX T guillemotleft -160
+KPX T guillemotright -105
+KPX T AE -87
+KPX T ae -56
+KPX T oslash -46
+KPX T pi -59
+
+KPX V parenright 10
+KPX V comma -110
+KPX V hyphen -18
+KPX V A -37
+KPX V C -6
+KPX V bracketright 8
+KPX V a -22
+KPX V c -21
+KPX V o -22
+KPX V r -15
+KPX V u -14
+KPX V v -5
+KPX V braceright 9
+
+KPX W parenright 7
+KPX W comma -60
+KPX W hyphen -29
+KPX W A -21
+KPX W T 7
+KPX W bracketright 6
+KPX W a -16
+KPX W c -15
+KPX W o -15
+KPX W r -10
+KPX W u -9
+KPX W braceright 7
+
+KPX X hyphen -22
+KPX X C -12
+KPX X V 7
+KPX X c -13
+KPX X o -10
+KPX X u -10
+KPX X v -15
+
+KPX Y ampersand -15
+KPX Y parenright 10
+KPX Y asterisk -24
+KPX Y comma -103
+KPX Y hyphen -25
+KPX Y A -46
+KPX Y C -14
+KPX Y J -47
+KPX Y S -8
+KPX Y T 8
+KPX Y U -47
+KPX Y V 9
+KPX Y W 8
+KPX Y X 6
+KPX Y Y 9
+KPX Y bracketright 9
+KPX Y a -36
+KPX Y c -32
+KPX Y f -11
+KPX Y m -20
+KPX Y o -32
+KPX Y r -20
+KPX Y s -28
+KPX Y t -11
+KPX Y u -19
+KPX Y v -10
+KPX Y x -11
+KPX Y z -15
+KPX Y braceright 9
+KPX Y guillemotleft -40
+KPX Y guillemotright -25
+KPX Y AE -47
+KPX Y ae -31
+KPX Y oslash -31
+KPX Y pi -12
+KPX Y bullet -22
+
+KPX Z A 6
+KPX Z C -13
+KPX Z c -10
+KPX Z o -10
+KPX Z u -9
+KPX Z v -13
+KPX Z w -13
+
+KPX bracketleft J -9
+KPX bracketleft U -9
+
+KPX a quotedbl -33
+KPX a v -7
+
+KPX b quotedbl -14
+KPX b v -5
+KPX b x -7
+KPX b z -7
+
+KPX c quotedbl -5
+
+KPX e quotedbl -7
+KPX e v -6
+KPX e quoteright -39
+
+KPX f quotedbl 8
+KPX f parenright 10
+KPX f bracketright 9
+KPX f c -12
+KPX f braceright 9
+
+KPX h quotedbl -51
+KPX h quoteright -39
+
+KPX k c -10
+
+KPX o quotedbl -66
+KPX o v -7
+KPX o x -10
+KPX o z -8
+KPX o quoteright -39
+
+KPX r quotedbl 8
+KPX r comma -60
+KPX r a -20
+KPX r c -9
+KPX r f 7
+KPX r o -10
+KPX r t 24
+KPX r v 9
+KPX r w 8
+
+KPX t o -10
+
+KPX v quotedbl 7
+KPX v comma -52
+KPX v a -7
+KPX v c -6
+KPX v f 6
+KPX v o -7
+KPX v pi 5
+
+KPX w comma -61
+
+KPX x c -10
+KPX x o -10
+
+KPX z c -8
+KPX z o -8
+
+KPX braceleft J -10
+KPX braceleft U -10
+
+KPX quoteright h 16
+KPX quoteright k 16
+KPX quoteright l 16
+KPX quoteright o -63
+KPX quoteright s -55
+
+EndKernPairs
+EndKernData
+EndFontMetrics
+
+</document_content>
+</document>
+
+<document index="8">
+<source>METRXPRS/README.md</source>
+<document_content>
+## METRXPRS.EXE
+**“Metrics assistance” tool for AFM font files.**
+
+This program corrects the `.AFM` font metric files according to special metrics equality (`.MEQ`) tables so that the metrics of the “child glyphs”, i.e. of composite glyphs like `Aacute` will be adjusted to fit the metrics of the “parent glyphs”, i.e. of the basic components (like `A`). Written when I used FontLab 3.0 which did not have a “metrics assistance” function. 
+```
+------------------------------------------------------------------------------
+SYNTAX:    METRXPRS.EXE <AFM-INFILE> <AFM-OUTFILE> <MEQ-FILE>
+WHERE:     <AFM-INFILE>     is the font metric file to be corrected
+           <AFM-OUTFILE>    is the target font metric file
+           <MEQ-FILE>       is the table of equalities
+EXAMPLE:   METRXPRS.EXE INPUT.AFM OUTPUT.AFM ANSI.MEQ
+------------------------------------------------------------------------------
+SYNTAX OF THE MEQ EQUALITY FILE:
+           <child glyphname><space><parent glyphname><enter>
+           <child glyphname><space><parent glyphname><enter>
+           ...
+------------------------------------------------------------------------------
+```
+
+Copyright © 1998-2015 by Adam Twardoch. Published under the [Apache 2](/LICENSE) license at http://github.com/twardoch . 
+
+Originally written in 1998 in QBasic, rewritten in 2015 using [FreeBasic](http://www.freebasic.net/). The repository contains `METRXPRS.BAS`, the source code of the current version written in FreeBasic. To build, use `fbc -lang qb METRXPRS.BAS`. It also contains `METRXPRS.EXE`, a version that runs under Windows (in command line mode). Sample files `ANSI.MEQ`, `ORIG.AFM`, `METR.AFM` are included. 
+
+</document_content>
+</document>
+
+<document index="9">
+<source>POLFED/POLFED32.BAS</source>
+<document_content>
+DECLARE SUB ShowMainWindow ()
+DECLARE SUB AppAbout ()
+DECLARE SUB AppExit ()
+DECLARE SUB AppExitError ()
+DECLARE SUB ClrChar (CurrChar!)
+DECLARE SUB CopyChar2Buf (CharFrom!, BufTo!)
+DECLARE SUB CopyBuf2Char (BufFrom!, CharTo!)
+DECLARE SUB Clr (CurrChar!)
+DECLARE SUB Invert (CurrChar)
+DECLARE SUB vMir (CurrChar)
+DECLARE SUB hMir (CurrChar!)
+DECLARE SUB Pattern (CurrChar!)
+DECLARE SUB MoveDown (CurrChar!)
+DECLARE SUB MoveUp (CurrChar!)
+DECLARE SUB MoveRight (CurrChar!)
+DECLARE SUB MoveLeft (CurrChar!)
+DECLARE SUB ExitAsk ()
+DECLARE SUB CommonNormKeys ()
+DECLARE SUB EditReadKey ()
+DECLARE SUB DisplayCharEdit (CurrChar!)
+DECLARE SUB UndoChar (CurrChar!)
+DECLARE SUB SaveUndoChar (CurrChar!)
+DECLARE SUB ChangePoz ()
+DECLARE SUB SaveCurrChar (CurrChar!)
+DECLARE SUB CommonSpecKeys ()
+DECLARE SUB MenuReadKey ()
+DECLARE SUB DisplayCharView (CurrChar!)
+DECLARE SUB EditChar (CurrChar)
+DECLARE SUB HotKeys (Ver!)
+DECLARE SUB BufSwitch (Buf!, Switch!)
+DECLARE SUB ClrBuf (char!)
+DECLARE SUB CopyChar (CharFrom!, CharTo!)
+DECLARE SUB InputFileName ()
+DECLARE SUB OutputFileName ()
+DECLARE SUB ExitProg ()
+DECLARE SUB SaveFont ()
+DECLARE SUB OIfirst ()
+DECLARE SUB OIlast ()
+DECLARE SUB PrepChar ()
+DECLARE SUB CheckASCIIpos (CurrChar!, X!, y!)
+DECLARE SUB ReadKey ()
+DECLARE SUB CheckCode (CurrChar!, A$, b$, C$, D$)
+DECLARE SUB GetChar (CurrChar!)
+DECLARE SUB CnvChar2Disp (v!)
+DECLARE SUB FillSquare (y!, X!, l!, H!, char$)
+DECLARE SUB NewInput (y, X, Text$, XLength, YHeight, Limit, Limit$, Terminate$, Default$)
+DECLARE SUB Flash (y!, X!, XLength!)
+DECLARE SUB Comline (N, A$(), Max)
+DECLARE SUB GetComline (FontPathOpen$, FontPathSave$)
+
+COMMON SHARED B0$(), Z0$(), OI$(), Font$, Buf$, Zn$(), H, w, K0, K1, K$, o$, i$
+COMMON SHARED FontPathSave$, FontPathOpen$, o0$, i0$, i1$, Yof, Xof, xo, yo
+COMMON SHARED FontPathExt$, LastChar, OST, CurrChar, Undo$
+COMMON SHARED DispEnd$, AltDisplay, Esc, AktX, AktY, AktZn$, AktCur$
+COMMON SHARED SndSwitch, Quit, Hot, BUFused
+COMMON SHARED PathName$
+COMMON SHARED PolFEDversion$, PolFEDerror$
+
+' =============================================================================
+' ============================= POLFED ========================================
+' =============================================================================
+' DOS font editor
+' Copyright (c) 1994, 1997, 2015 by Adam Twardoch
+' Originally written 1994 in QBasic, then 1998 Visual Basic for DOS
+' Rewritten in FreeBASIC in 2015. 
+' Published under the Apache 2 opensource license
+' http://github.com/twardoch
+' 
+' This app 
+' 
+' Version 2.002
+' HISTORY: 
+' v2.002 (2015-04-26): rewritten using FreeBASIC
+' v2.001 (1997-07-30): rewritten using MS Visual Basic for DOS
+' v1.000 (1994.12.27): written using QBasic
+
+PolFEDversion$ = "2.002"
+
+' # PREPARATION, DATA INPUT
+
+CLS
+CALL InputFileName
+DIM SHARED Zn$(H)
+DIM SHARED OI$(0 TO 15)
+DIM SHARED B0$(2), Z0$(2)
+DIM SHARED Undo(10, H)
+
+Xof = 1
+Yof = 0
+UndoLevel = 1
+SndSwitch = -1
+Save% = 1
+
+CALL ShowMainWindow ()
+
+' # OPEN AND READ FONT FILE
+
+CALL Flash(Yof + 6, Xof + 3, 7)
+LOCATE Yof + 6, Xof + 3, 0
+PRINT "READING"
+LOCATE Yof + 4, Xof + 24, 0
+PRINT LEFT$(PathName$, 28)
+LOCATE Yof + 6, Xof + 26, 0
+PRINT FileName$
+
+AktX = 4
+AktY = INT(H / 2)
+
+OPEN FontPathOpen$ FOR BINARY AS 1
+CurrChar = 0
+
+' ## Reading file
+
+Font$ = INPUT$(10000, #1)
+OST = LEN(Font$)
+LastChar = OST / H - 1
+IF LastChar <> INT(OST / H) - 1 THEN PRINT "BAD": CALL AppExitError ()
+CLOSE #1
+
+' ## Setting buffer
+FOR w = 1 TO H
+    A$ = A$ + CHR$(0)
+NEXT w
+FOR w = 1 TO 4
+    Font$ = Font$ + A$
+NEXT w
+
+' # BEGIN EDITING
+
+IntroGoto:
+'ON ERROR GOTO 0
+IF Esc = 1 THEN CALL ShowMainWindow ()
+Quit = 0
+Esc = 0
+
+CALL Flash(Yof + 6, Xof + 3, 7)
+LOCATE Yof + 6, Xof + 3, 0
+PRINT "EDITING the font file"
+
+CALL Flash(Yof + 6, Xof + 39, 13)
+LOCATE Yof + 6, Xof + 40, 0
+PRINT " CHARACTER  "
+LOCATE Yof + 7, Xof + 40, 0
+PRINT "   CODE:"
+
+' # MENU WORK
+' ## Intro
+
+xo = Xof + 52: yo = Yof + 1
+DispEnd$ = "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼"
+CALL OIfirst
+CALL PrepChar
+CurrChar = 0
+CALL HotKeys(0)
+
+' ## Select char
+
+MenuGoto:
+Esc = 0
+DO
+    CALL DisplayCharView(CurrChar)
+    CALL MenuReadKey
+LOOP UNTIL Quit
+
+CALL ExitProg
+GOTO IntroGoto
+
+' # EDIT CHAR
+' See SUB Edit
+END
+
+' # SUBROUTINES
+ErrHandlerGoto:
+PRINT "Error!"
+END
+
+SUB BufSwitch (Buf, Switch)    
+    PosY = 8
+    PosX = 8 + 2 * Buf
+    XX = Xof + PosX + 4
+    YY = Yof + PosY + 8
+    
+    LOCATE YY, XX, 0
+    SELECT CASE Switch
+    CASE 0
+        PRINT " "
+    CASE ELSE
+        PRINT "ú"
+    END SELECT
+END SUB
+
+SUB ChangePoz ()
+    ' ON/OFF pixel in position (AktX,AktY) if space pressed
+    IF AktZn$ = i$ THEN
+        AktZn$ = o$
+    ELSE
+        AktZn$ = i$
+    END IF
+    
+    MID$(Zn$(AktY), AktX * 2 - 1, 2) = AktZn$
+    
+END SUB
+
+SUB CheckASCIIpos (CurrChar, XX, YY)
+    
+    SELECT CASE CurrChar
+    
+    CASE IS > LastChar
+        PosY = 8: PosX = 7 + 2 * (CurrChar - LastChar) ' Buffers
+    CASE IS > 255
+        PosY = 8: PosX = 31                       ' Additional Chars (above 255)
+    CASE IS > 31
+        PosY = INT(CurrChar / 32)             ' Displayable ASCII
+        PosX = CurrChar - PosY * 32
+    CASE IS >= 0
+        
+        PosY = 0: PosX = 0                ' Control Chars
+    CASE ELSE
+    END SELECT
+    
+    XX = Xof + PosX + 4
+    YY = Yof + PosY + 8
+END SUB
+
+SUB CheckCode (CurrChar, A$, b$, C$, D$)
+    D$ = "ASCII: "
+    A$ = LTRIM$(STR$(ABS(CurrChar)))
+    A$ = STRING$(3 - LEN(A$), " ") + A$
+    b$ = HEX$(ABS(CurrChar))
+    b$ = STRING$(3 - LEN(b$), " ") + b$
+    C$ = "  "
+    IF CurrChar > 31 AND CurrChar < 256 THEN
+        C$ = C$ + CHR$(CurrChar)
+    ELSE
+        IF CurrChar > LastChar THEN
+            C$ = "-" + LTRIM$(STR$(CurrChar - LastChar)) + "-": A$ = "---"
+            b$ = A$
+            D$ = "  BUF: "
+        ELSE
+            IF CurrChar < 32 THEN
+                CALL SpecChars (C$)
+            ELSE
+                IF CurrChar > 255 THEN
+                    D$ = " CODE: "
+                    C$ = LTRIM$(STR$(CurrChar - 256))
+                    C$ = STRING$(3 - LEN(C$), " ") + C$
+                END IF
+            END IF
+        END IF
+    END IF
+    EXIT SUB
+END SUB
+
+SUB SpecChars (C$)
+    SELECT CASE CurrChar
+    ' Control Characters
+    CASE 0: C$ = "nul"
+    CASE 1: C$ = "soh"
+    CASE 2: C$ = "stx"
+    CASE 3: C$ = "etx"
+    CASE 4: C$ = "eot"
+    CASE 5: C$ = "enq"
+    CASE 6: C$ = "ack"
+    CASE 7: C$ = "bel"
+    CASE 8: C$ = " bs"
+    CASE 9: C$ = "tab"
+    CASE 10: C$ = " lf"
+    CASE 11: C$ = " vt"
+    CASE 12: C$ = " np"
+    CASE 13: C$ = " cr"
+    CASE 14: C$ = " so"
+    CASE 15: C$ = " si"
+    CASE 16: C$ = "dle"
+    CASE 17: C$ = "dc1"
+    CASE 18: C$ = "dc2"
+    CASE 19: C$ = "dc3"
+    CASE 20: C$ = "dc4"
+    CASE 21: C$ = "nak"
+    CASE 22: C$ = "syn"
+    CASE 23: C$ = "etb"
+    CASE 24: C$ = "can"
+    CASE 25: C$ = " em"
+    CASE 26: C$ = "eof"
+    CASE 27: C$ = "esc"
+    CASE 28: C$ = " fs"
+    CASE 29: C$ = " gs"
+    CASE 30: C$ = " rs"
+    CASE 31: C$ = " us"
+    END SELECT
+END SUB
+
+SUB Clr (CurrChar)
+    
+    FOR w = 1 TO H
+        A$ = ""
+        FOR X = 1 TO 8
+            A$ = A$ + o$
+        NEXT X
+        Zn$(w) = A$
+    NEXT w
+    
+END SUB
+
+SUB ClrChar (CurrChar)
+    MID$(Font$, CurrChar * H + 1, H) = STRING$(H, CHR$(0))
+END SUB
+
+SUB CommonNormKeys ()
+    SELECT CASE K$
+    
+    CASE "8"
+        CALL MoveUp(CurrChar)
+    CASE "2"
+        CALL MoveDown(CurrChar)
+    CASE "4"
+        CALL MoveLeft(CurrChar)
+    CASE "6"
+        CALL MoveRight(CurrChar)
+    CASE "5"
+        CALL Invert(CurrChar)
+    CASE "7"
+        CALL hMir(CurrChar)
+    CASE "9"
+        CALL vMir(CurrChar)
+    CASE "0"
+        CALL Clr(CurrChar)
+    CASE ELSE
+    END SELECT
+END SUB
+
+SUB CommonSpecKeys ()    
+    ' BUFFER OPERATIONS '
+    SELECT CASE K$
+    
+    ' Copy to buffer <Fx>
+    ' f1
+    CASE ";"
+        CALL CopyChar(CurrChar, LastChar + 1)
+        CALL BufSwitch(1, 1)
+    ' f2
+    CASE "<"
+        CALL CopyChar(CurrChar, LastChar + 2)
+        CALL BufSwitch(2, 1)
+    ' f3
+    CASE "="
+        CALL CopyChar(CurrChar, LastChar + 3)
+        CALL BufSwitch(3, 1)
+    ' f4
+    CASE ">"
+        CALL CopyChar(CurrChar, LastChar + 4)
+        CALL BufSwitch(4, 1)
+        
+    ' Copy from buffer Ctrl+<Fx>
+    ' ct+f1
+    CASE "^"
+        CALL CopyChar(LastChar + 1, CurrChar)
+    ' ct+f2
+    CASE "_"
+        CALL CopyChar(LastChar + 2, CurrChar)
+    ' ct+f3
+    CASE "`"
+        CALL CopyChar(LastChar + 3, CurrChar)
+    ' ct+f4
+    CASE "a"
+        CALL CopyChar(LastChar + 4, CurrChar)
+        
+    ' Display buffer Shift+<Fx>
+    ' sh+f1
+    CASE "T"
+        IF BUFused = 0 THEN BUFused = CurrChar
+        CurrChar = LastChar + 1
+    ' sh+f2
+    CASE "U"
+        IF BUFused = 0 THEN BUFused = CurrChar
+        CurrChar = LastChar + 2
+    ' sh+f3
+    CASE "V"
+        IF BUFused = 0 THEN BUFused = CurrChar
+        CurrChar = LastChar + 3
+    ' sh+f4
+    CASE "W"
+        IF BUFused = 0 THEN BUFused = CurrChar
+        CurrChar = LastChar + 4
+        
+    ' Clean buffer Alt+<Fx>
+    ' alt+f1
+    CASE "h"
+        CALL ClrChar(LastChar + 1)
+        CALL BufSwitch(1, 0)
+    ' alt+f2
+    CASE "i"
+        CALL ClrChar(LastChar + 2)
+        CALL BufSwitch(2, 0)
+    ' alt+f3
+    CASE "j"
+        CALL ClrChar(LastChar + 3)
+        CALL BufSwitch(3, 0)
+    ' alt+f4
+    CASE "k"
+        CALL ClrChar(LastChar + 4)
+        CALL BufSwitch(4, 0)
+        
+    ' F9  - Sound ON/OFF
+    CASE "C"
+        SndSwitch = NOT SndSwitch
+        
+    ' Alt Q - Quit, no Save
+    CASE CHR$(16)
+        Quit = 1
+        Esc = 1
+        
+    ' Alt X - Save & Exit
+    CASE "-"
+        Quit = 2
+        Esc = 1
+        
+    ' Alt H - More Help
+    CASE "#"
+        Hot = Hot + 1
+        CALL HotKeys(Hot)
+        
+    'Alt I - Info Window
+    'CASE CHR$(23)
+    '    CALL PolFED
+    '    CALL ShowMainWindow   'DOESN'T WORK (2.0)
+        
+    CASE ELSE
+    END SELECT
+END SUB
+
+SUB CopyChar (CharFrom, CharTo)
+    Undo$ = MID$(Font$, CharTo * H + 1, H)
+    MID$(Font$, CharTo * H + 1, H) = MID$(Font$, CharFrom * H + 1, H)
+END SUB
+
+SUB DisplayCharEdit (CurrChar)
+    ' Displaying the Char
+    FOR w = 1 TO H
+        LOCATE yo + w, xo + 1, 0
+        PRINT Zn$(w)
+    NEXT w
+    
+    ' Displaying the Cursor
+    AktZn$ = MID$(Zn$(AktY), AktX * 2 - 1, 2)
+    
+    IF AktZn$ = i$ THEN
+        AktCur$ = i0$
+    ELSE
+        AktCur$ = o0$
+    END IF
+    
+    LOCATE yo + AktY, xo + AktX * 2 - 1, 0
+    PRINT AktCur$
+END SUB
+
+SUB DisplayCharView (CurrChar)
+    ' * Getting the Char
+    CALL GetChar(CurrChar)
+    
+    FOR w = 1 TO H
+        LOCATE yo + w, xo, 0
+        PRINT "º"; Zn$(w); "º"
+    NEXT w
+    
+    LOCATE yo + H + 1, xo, 0
+    PRINT DispEnd$
+    LOCATE yo + 2, xo: PRINT "¹"
+    LOCATE yo + 4, xo: PRINT "¹"
+    
+    ' *** Display the code
+    CALL CheckCode(CurrChar, A$, b$, C$, D$)
+    LOCATE Yof + 8, Xof + 40, 0: PRINT "  DEC: "; A$
+    LOCATE Yof + 9, Xof + 40, 0: PRINT "  HEX: "; b$
+    LOCATE Yof + 10, Xof + 40, 0: PRINT D$; C$
+    
+    ' *** Display the position on the ASCII chart
+    CALL CheckASCIIpos(CurrChar, XX, YY)
+    LOCATE YY, XX, 1, 8
+END SUB
+
+SUB EditChar (CurrChar)
+    CALL SaveUndoChar(CurrChar)
+    DO
+        CALL DisplayCharEdit(CurrChar)
+        CALL EditReadKey
+    LOOP UNTIL Esc = 1
+END SUB
+
+SUB EditReadKey ()
+    EditReadKeyGoto:
+    ' *** Read from keyboard ***
+    CALL ReadKey
+    
+    ' Special keys
+    IF K0 = 0 THEN
+        SELECT CASE K$
+        ' Left
+        CASE "K"
+            AktX = AktX - 1
+            IF AktX < 1 THEN AktX = 8
+        ' Right
+        CASE "M"
+            AktX = AktX + 1
+            IF AktX > 8 THEN AktX = 1
+        ' Up
+        CASE "H"
+            AktY = AktY - 1
+            IF AktY < 1 THEN AktY = H
+        ' Down
+        CASE "P"
+            AktY = AktY + 1
+            IF AktY > H THEN AktY = 1
+        ' AltP
+        CASE CHR$(25)
+            CALL Pattern(CurrChar)
+           
+        ' Other keys
+        CASE ELSE
+            CALL CommonSpecKeys
+        END SELECT
+        
+        ' Alphanumeric keys
+    ELSE
+        SELECT CASE K$
+        
+        ' Space
+        CASE " "
+            CALL ChangePoz
+            
+        ' Enter
+        CASE CHR$(13)
+            CALL SaveCurrChar(CurrChar)
+            Esc = 1
+            
+        ' Esc
+        CASE CHR$(27)
+            Esc = 1
+            
+        ' BkSp
+        CASE CHR$(8)
+            CALL UndoChar(CurrChar)
+            
+        ' Other keys
+        CASE ELSE
+            CALL CommonNormKeys
+        END SELECT
+        
+    END IF
+END SUB
+
+SUB ExitAsk ()
+    CALL Flash(Yof + 6, Xof + 3, 21)
+    LOCATE Yof + 6, Xof + 3, 0
+    IF Quit = 1 THEN
+        PRINT "QUIT, NO SAVE (Y/N)?"
+    ELSE
+        PRINT "SAVE & EXIT (Y/N) ?"
+    END IF
+    
+    CALL NewInput(Yof + 6, Xof + 23, Text$, 1, 1, 2, "YN", CHR$(13), "N")
+    IF Text$ = "N" THEN
+        Esc = 1
+        LOCATE Yof + 6, Xof + 3, 0
+        PRINT "FONT NOT SAVED!"
+    END IF
+END SUB
+
+SUB ExitProg ()
+    CALL ExitAsk
+    IF Esc THEN EXIT SUB
+    IF Quit > 1 THEN CALL SaveFont
+    
+    IF Esc THEN EXIT SUB
+    
+    CALL AppExit
+END SUB
+
+SUB FillSquare (y, X, l, H, char$)
+    FOR YY = y TO y + H - 1
+        FOR XX = X TO X + l - 1
+            LOCATE YY, XX, 0
+            PRINT char$
+        NEXT XX
+    NEXT YY
+END SUB
+
+SUB Flash (y, X, XLength)
+    CALL FillSquare(y, X, XLength, 1, "Û")
+    Pause = 0
+    WHILE Pause < 100
+        Pause = Pause + 1
+    WEND
+    CALL FillSquare(y, X, XLength, 1, "²")
+    CALL FillSquare(y, X, XLength, 1, "±")
+    CALL FillSquare(y, X, XLength, 1, "°")
+    CALL FillSquare(y, X, XLength, 1, " ")
+END SUB
+
+SUB GetChar (CurrChar)
+    FOR w = 1 TO H
+        Bajt = ASC(MID$(Font$, CurrChar * H + w, 1))
+        b$ = HEX$(Bajt)
+        IF LEN(b$) = 1 THEN b$ = "0" + b$
+        B0$(1) = LEFT$(b$, 1)
+        B0$(2) = RIGHT$(b$, 1)
+        FOR b = 1 TO 2
+            SELECT CASE B0$(b)
+            CASE "0": Z0$(b) = OI$(0)
+            CASE "1": Z0$(b) = OI$(1)
+            CASE "2": Z0$(b) = OI$(2)
+            CASE "3": Z0$(b) = OI$(3)
+            CASE "4": Z0$(b) = OI$(4)
+            CASE "5": Z0$(b) = OI$(5)
+            CASE "6": Z0$(b) = OI$(6)
+            CASE "7": Z0$(b) = OI$(7)
+            CASE "8": Z0$(b) = OI$(8)
+            CASE "9": Z0$(b) = OI$(9)
+            CASE "A": Z0$(b) = OI$(10)
+            CASE "B": Z0$(b) = OI$(11)
+            CASE "C": Z0$(b) = OI$(12)
+            CASE "D": Z0$(b) = OI$(13)
+            CASE "E": Z0$(b) = OI$(14)
+            CASE "F": Z0$(b) = OI$(15)
+            END SELECT
+        NEXT b
+        Zn$(w) = Z0$(1) + Z0$(2)
+    NEXT w
+END SUB
+
+SUB hMir (CurrChar)
+    FOR w = 1 TO H
+        A$ = Zn$(w)
+        C$ = ""
+        FOR X = 15 TO 1 STEP -2
+            b$ = MID$(A$, X, 2)
+            C$ = C$ + b$
+        NEXT X
+        Zn$(w) = C$
+    NEXT w
+END SUB
+
+SUB HotKeys (Hot)
+    HotGoto:
+    SELECT CASE Hot
+    
+    CASE 0
+        LOCATE Yof + 17, Xof + 1, 0
+        PRINT "ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍ»": LOCATE Yof + 18, Xof + 1, 0
+        PRINT "º POLFED Font Editor  v" + PolFEDversion$ + " º ALT<H> to see HELP º": LOCATE Yof + 19, Xof + 1, 0
+        PRINT "ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÐÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶": LOCATE Yof + 20, Xof + 1, 0
+        PRINT "º DOS Font Editor                                 º": LOCATE Yof + 21, Xof + 1, 0
+        PRINT "º File format: 8(.CGA) 14(.EGA) 16(.VGA) 20(.XGA) º": LOCATE Yof + 22, Xof + 1, 0
+        PRINT "º    lines per char. Each line is 1 byte (8 bits) º": LOCATE Yof + 23, Xof + 1, 0
+        PRINT "º http://github.com/twardoch FreeBASIC + Apache 2 º": LOCATE Yof + 24, Xof + 1, 0
+        PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼";
+        
+    CASE 1
+        LOCATE Yof + 17, Xof + 1, 0
+        PRINT "ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍ»": LOCATE Yof + 18, Xof + 1, 0
+        PRINT "º SELECT & MAIN OPTIONS º ALT<H> to toggle HELP 1 º": LOCATE Yof + 19, Xof + 1, 0
+        PRINT "ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶": LOCATE Yof + 20, Xof + 1, 0
+        PRINT "º  cursor Í select char º    <F9> Í sound on/off  º": LOCATE Yof + 21, Xof + 1, 0
+        PRINT "º <Enter> Í edit char   º   <F10> Í alt display   º": LOCATE Yof + 22, Xof + 1, 0
+        PRINT "º  <BkSp> Í undo edit   º  alt<X> Í save & exit   º": LOCATE Yof + 23, Xof + 1, 0
+        PRINT "º                       º  alt<Q> Í quit, no save º": LOCATE Yof + 24, Xof + 1, 0
+        PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼";
+        
+    CASE 2
+        LOCATE Yof + 17, Xof + 1, 0
+        PRINT "ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍ»": LOCATE Yof + 18, Xof + 1, 0
+        PRINT "º EDIT & BUFFER OPTIONS º ALT<H> to toggle HELP 2 º": LOCATE Yof + 19, Xof + 1, 0
+        PRINT "ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶": LOCATE Yof + 20, Xof + 1, 0
+        PRINT "º  cursor Í move around º <F1>ö<F4> Í char Í> BUF º": LOCATE Yof + 21, Xof + 1, 0
+        PRINT "º <Space> Í toggle bit  º  ctrl<Fx> Í BUF Í> char º": LOCATE Yof + 22, Xof + 1, 0
+        PRINT "º <Enter> Í accept char º shift<Fx> Í view BUFfer º": LOCATE Yof + 23, Xof + 1, 0
+        PRINT "º   <Esc> Í cancel edit º   alt<Fx> Í clear BUF   º": LOCATE Yof + 24, Xof + 1, 0
+        PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼";
+        
+    CASE 3
+        LOCATE Yof + 17, Xof + 1, 0
+        PRINT "ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍ»": LOCATE Yof + 18, Xof + 1, 0
+        PRINT "º        EFFECTS        º ALT<H> to toggle HELP 3 º": LOCATE Yof + 19, Xof + 1, 0
+        PRINT "ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶": LOCATE Yof + 20, Xof + 1, 0
+        PRINT "º    <8> <Í»            º <7> Í flip horizontally º": LOCATE Yof + 21, Xof + 1, 0
+        PRINT "º <4> + <6>ÌÍ move char º <9> Í flip vertically   º": LOCATE Yof + 22, Xof + 1, 0
+        PRINT "º    <2> <Í¼            º <5> Í invert character  º": LOCATE Yof + 23, Xof + 1, 0
+        PRINT "º    alt<P> Í pattern   º <0> Í clear character   º": LOCATE Yof + 24, Xof + 1, 0
+        PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼";
+        
+    CASE ELSE
+        Hot = 0
+        GOTO HotGoto
+    END SELECT
+END SUB
+
+SUB InputFileName ()
+    Call GetComline (FontPathOpen$, FontPathSave$)
+    FontPathExt$ = RIGHT$(FontPathOpen$, 3)
+    
+    IF LEFT$(FontPathExt$, 1) = "F" THEN
+        H = VAL(RIGHT$(FontPathExt$, 2))
+        IF H < 4 OR H > 20 THEN
+            PolFEDerror$ = "Unknown file or file type!"
+            CALL AppExitError
+        END IF
+    ELSE
+        SELECT CASE FontPathExt$
+        
+        CASE IS = "CGA"
+            H = 8
+            
+        CASE IS = "EGA"
+            H = 14
+            
+        CASE IS = "VGA"
+            H = 16
+            
+        CASE IS = "XGA"
+            H = 20
+        CASE ELSE
+            AppError$ = "Unknown file or file type!"
+            CALL AppExitError
+            
+        END SELECT
+    END IF
+END SUB
+
+SUB Comline (NumArgs, Args$(), MaxArgs)
+    CONST TRUE = -1, FALSE = 0
+    
+    NumArgs = 0: In = FALSE
+    ' Get the command line using the COMMAND$ function
+    Cl$ = COMMAND$
+    L = LEN(Cl$)
+    ' Go through the command line a character at a time
+    FOR i = 1 TO L
+        C$ = MID$(Cl$, i, 1)
+        ' Test for character being a blank or a tab
+        IF (C$ <> " " AND C$ <> CHR$(9)) THEN
+            ' Neither blank nor tab; test if you're already inside
+            ' an argument
+            IF NOT In THEN
+                ' You've found the start of a new argument
+                ' Test for too many arguments
+                IF NumArgs = MaxArgs THEN EXIT FOR
+                NumArgs = NumArgs + 1
+                In = TRUE
+            END IF
+            ' Add the character to the FontPathExtnt argument
+            Args$(NumArgs) = Args$(NumArgs) + C$
+        ELSE
+            ' Found a blank or a tab.
+            ' Set "Not in an argument" flag to FALSE
+            In = FALSE
+        END IF
+    NEXT i
+    
+END SUB
+
+SUB GetComline (FontPathOpen$, FontPathSave$)
+    DIM CmdLine$(1 TO 15)
+    CALL Comline(NoCmdLine, CmdLine$(), 15)
+    IF NoCmdLine < 1 OR NoCmdLine > 2 OR CmdLine$(1) = "/?" OR CmdLine$(1) = "/H" OR CmdLine$(1) = "-?" OR CmdLine$(1) = "-H" THEN
+        CALL AppAbout
+        END
+    ELSE
+        FontPathOpen$ = CmdLine$(1)
+        IF NoCmdLine < 2 THEN
+            FontPathSave$ = FontPathOpen$
+        ELSE
+            FontPathSave$ = CmdLine$(2)
+        END IF
+    END IF
+END SUB
+
+SUB Invert (CurrChar)
+    FOR w = 1 TO H
+        A$ = Zn$(w)
+        FOR X = 1 TO 15 STEP 2
+            b$ = MID$(A$, X, 2)
+            IF b$ = i$ THEN
+                MID$(Zn$(w), X, 2) = o$
+            ELSE
+                MID$(Zn$(w), X, 2) = i$
+            END IF
+        NEXT X
+    NEXT w
+END SUB
+
+SUB MenuReadKey ()
+    ReadKeyGoto:
+    ' *** Keyboard input ***
+    CALL ReadKey
+    
+    ' Special keys
+    IF K0 = 0 THEN
+        SELECT CASE K$
+        ' Left
+        CASE "K"
+            CurrChar = CurrChar - 1
+            GOSUB ChkRangeCurrChar
+        ' PgUp
+        CASE "I"
+            CurrChar = CurrChar - 1
+            GOSUB ChkRangeCurrChar
+        ' Ct-Left
+        CASE "s"
+            CurrChar = CurrChar - 1
+            GOSUB ChkRangeCurrChar
+        ' Right
+        CASE "M"
+            CurrChar = CurrChar + 1
+            GOSUB ChkRangeCurrChar
+        ' Ct-Right
+        CASE "t"
+            CurrChar = CurrChar + 1
+            GOSUB ChkRangeCurrChar
+        ' PgDn
+        CASE "Q"
+            CurrChar = CurrChar + 1
+            GOSUB ChkRangeCurrChar
+        ' Up
+        CASE "H"
+            CurrChar = CurrChar - 32
+            GOSUB ChkRangeCurrChar
+        ' Down
+        CASE "P"
+            CurrChar = CurrChar + 32
+            GOSUB ChkRangeCurrChar
+        ' F10 - Alternate Display
+        CASE "D"
+            AltDisplay = AltDisplay + 1
+            CALL OIfirst
+            CALL PrepChar
+            
+        ' Other keys
+        CASE ELSE
+            CALL CommonSpecKeys
+        END SELECT
+        
+        ' Alphanumeric keys
+    ELSE
+        SELECT CASE K$
+        
+        ' Enter
+        CASE CHR$(13)
+            CALL EditChar(CurrChar)
+            Esc = 0
+            
+        ' Esc
+        CASE CHR$(27)
+            Esc = 1
+            
+        ' BkSp
+        CASE CHR$(8)
+            CALL UndoChar(CurrChar)
+            
+        ' inne klawisze
+        CASE ELSE
+            CALL GetChar(CurrChar)
+            CALL SaveUndoChar(CurrChar)
+            CALL CommonNormKeys
+            CALL SaveCurrChar(CurrChar)
+        END SELECT
+        
+    END IF
+    EXIT SUB
+    
+    '                                  SUBROUTINES:
+    ChkRangeCurrChar:
+    IF BUFused = 0 THEN
+        IF CurrChar < 0 THEN CurrChar = LastChar
+        IF CurrChar > LastChar THEN CurrChar = 0
+    ELSE
+        CurrChar = BUFused
+    END IF
+    BUFused = 0     ' A variable which shows if buffer was
+    ' displayed recently. If yes, it contains
+    ' the previous value of CurrChar
+    ' (i.e. the code of the char displayed just before.)
+    RETURN
+END SUB
+
+SUB MoveDown (CurrChar)
+    Pomoc$ = Zn$(H)
+    FOR w = H - 1 TO 1 STEP -1
+        Zn$(w + 1) = Zn$(w)
+    NEXT w
+    Zn$(1) = Pomoc$
+END SUB
+
+SUB MoveLeft (CurrChar)
+    FOR w = 1 TO H
+        A$ = Zn$(w)
+        Zn$(w) = RIGHT$(A$ + LEFT$(A$, 2), 16)
+    NEXT w
+END SUB
+
+SUB MoveRight (CurrChar)
+    FOR w = 1 TO H
+        A$ = Zn$(w)
+        Zn$(w) = LEFT$(RIGHT$(A$, 2) + A$, 16)
+    NEXT w
+END SUB
+
+SUB MoveUp (CurrChar)
+    Pomoc$ = Zn$(1)
+    FOR w = 1 TO H - 1
+        Zn$(w) = Zn$(w + 1)
+    NEXT w
+    Zn$(H) = Pomoc$
+END SUB
+
+SUB NewInput (y, X, Text$, XLength, YHeight, Limit, Limit$, Terminate$, Default$)
+    ' Inputting of text strings
+    ' Y and X are coordinates
+    ' Text$ is the output variable
+    ' XLength is the desired length of the string
+    ' YHeight is the desired height of the string
+    ' Limit is to check, whether there are any limitations
+    '       considering the input string.
+    ' "0" means - no limitations, "2" means - limited, not case sensitive,
+    ' "1" means - limited, case sensitive
+    ' Limit$ is to verify which characters may be entered and which ones not
+    ' Terminate$ is a list of keys to be pressed to finish entering
+    ' Default$ is the default value which is entered when ENTER pressed
+    
+    ' *** Preparing input area
+    Text$ = ""
+    CALL FillSquare(y, X, XLength, 1, "Û")
+    Pause = 0
+    WHILE Pause < 100
+        Pause = Pause + 1
+    WEND
+    CALL FillSquare(y, X, XLength, 1, "²")
+    CALL FillSquare(y, X, XLength, 1, "±")
+    CALL FillSquare(y, X, XLength, YHeight, "°")
+    
+    FOR YH = 0 TO YHeight - 1
+        FOR XL = 0 TO XLength - 1
+            
+            StartGoto:
+            ' *** Waiting for keyboard input
+            DO
+                LOCATE y + YH, X + XL, 1, 8
+                KeyPr$ = LEFT$(INKEY$, 1)
+            LOOP UNTIL KeyPr$ <> ""
+            
+            ' *** Check: Esc Key pressed?
+            Esc = 0
+            IF KeyPr$ = CHR$(27) THEN Esc = 1: EXIT SUB
+            
+            ' *** Check: Enter/Terminate Key pressed?
+            FOR A = 1 TO LEN(Terminate$)
+                Term$ = MID$(Terminate$, A, 1)
+                IF KeyPr$ = Term$ THEN
+                    ' *** Check: Default text should be used?
+                    IF Text$ = "" THEN
+                        Text$ = Default$
+                        LOCATE y + YH, X + XL, 0: PRINT Text$
+                        XL = XL + LEN(Text$)
+                    END IF
+                    GOTO FinishGoto
+                END IF
+            NEXT A
+            
+            ' *** Check: BackSpace/Delete pressed?
+            IF KeyPr$ = CHR$(8) THEN
+                XL = XL - 1
+                IF XL < 0 THEN
+                    XL = XLength - 1
+                    YH = YH - 1
+                    IF YH < 0 THEN YH = 0: XL = 0
+                END IF
+                CutLen = LEN(Text$) - 1
+                IF CutLen < 0 THEN CutLen = 0
+                REM ### : SOUND 50, 3
+                Text$ = LEFT$(Text$, CutLen)
+                LOCATE y + YH, X + XL, 0
+                PRINT "°";
+                GOTO StartGoto
+            END IF
+            
+            ' *** Limit check ***
+            IF Limit THEN
+                ' *** Case sensitivity ***
+                IF Limit > 1 THEN
+                    KeyPr$ = UCASE$(KeyPr$)
+                    Limit$ = UCASE$(Limit$)
+                END IF
+                OK = 0
+                FOR A = 1 TO LEN(Limit$)
+                    IF KeyPr$ = MID$(Limit$, A, 1) THEN OK = 1
+                NEXT A
+                IF OK = 0 THEN GOTO StartGoto
+            END IF
+            
+            Text$ = Text$ + KeyPr$
+            
+            ' *** Printing the pressed key
+            LOCATE y + YH, X + XL, 0: PRINT KeyPr$
+            
+        NEXT XL
+    NEXT YH
+    
+    ' YH = YHeight - 1
+    ' XL = XLength - 1
+    ' GOTO Start:
+    
+    FinishGoto:
+    ' *** Clearing the rest of the area
+    CALL FillSquare(y + YH, X + XL, XLength - XL, 1, " ")
+    IF YH < y + YHeight THEN CALL FillSquare(y + YH + 1, X, XLength, YHeight - YH - 1, " ")
+END SUB
+
+SUB OIfirst ()
+    OIfirstGoto:
+    SELECT CASE AltDisplay
+    
+    CASE 0
+        o$ = "°°"
+        i$ = "²²"
+        o0$ = "±±"
+        i0$ = "ÛÛ"
+    CASE 1
+        o$ = "ùú"
+        i$ = "ÞÝ"
+        o0$ = "°°"
+        i0$ = "²²"
+    CASE 2
+        o$ = ".."
+        i$ = "##"
+        o0$ = "oo"
+        i0$ = "XX"
+    CASE 3
+        o$ = "÷ø"
+        i$ = "Üß"
+        o0$ = "°°"
+        i0$ = "²²"
+        
+    CASE ELSE
+        AltDisplay = 0
+        GOTO OIfirstGoto
+    END SELECT
+END SUB
+
+SUB OIlast ()
+    o$ = "³ "
+    
+    i$ = "³Û"
+    
+    o0$ = "ÚÄÂÄÂÄÂÄÂÄÂÄÂÄÂÄ¿"
+    i0$ = "ÀÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÙ"
+    i1$ = "ÃÄÅÄÅÄÅÄÅÄÅÄÅÄÅÄ´"
+END SUB
+
+SUB Pattern (CurrChar)
+    FOR y = 1 TO AktY
+        FOR w = y + AktY TO H STEP AktY
+            Zn$(w) = Zn$(y)
+        NEXT w
+    NEXT y
+END SUB
+
+SUB AppExit ()
+    CLS
+    PRINT "POLFED v" + PolFEDversion$ + " finished!"
+    END
+END SUB
+
+SUB AppExitError ()
+    CLS
+    PRINT "POLFED v" + PolFEDversion$ + " error! "; AppError$
+    END
+END SUB
+
+SUB PrepChar ()
+    OI$(0) = o$ + o$ + o$ + o$
+    OI$(1) = o$ + o$ + o$ + i$
+    OI$(2) = o$ + o$ + i$ + o$
+    OI$(3) = o$ + o$ + i$ + i$
+    OI$(4) = o$ + i$ + o$ + o$
+    OI$(5) = o$ + i$ + o$ + i$
+    OI$(6) = o$ + i$ + i$ + o$
+    OI$(7) = o$ + i$ + i$ + i$
+    OI$(8) = i$ + o$ + o$ + o$
+    OI$(9) = i$ + o$ + o$ + i$
+    OI$(10) = i$ + o$ + i$ + o$
+    OI$(11) = i$ + o$ + i$ + i$
+    OI$(12) = i$ + i$ + o$ + o$
+    OI$(13) = i$ + i$ + o$ + i$
+    OI$(14) = i$ + i$ + i$ + o$
+    OI$(15) = i$ + i$ + i$ + i$
+END SUB
+
+SUB AppAbout ()
+    PRINT "ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»"
+    PRINT "º POLFED Font Editor v" + PolFEDversion$ + "                       º"
+    PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼";
+    PRINT
+    PRINT "  Bitmap screen font editor for DOS text-mode fonts."
+    PRINT "  Copyright (c) 1994-2015 by Adam Twardoch."
+    PRINT "  Written in QBasic, Visual Basic for DOS, FreeBASIC"
+    PRINT "  opensource under Apache 2: http://github.com/twardoch"
+    PRINT 
+    PRINT "  Opens a simple bitmap format: depending on .EXT,"
+    PRINT "  each character is 8 (.CGA), 14 (.EGA), 16 (.VGA), 20 (.XGA)"
+    PRINT "  lines/bytes, and each line is 1 byte (8 bits). "
+    PRINT 
+    PRINT "  Usage:"
+    PRINT "  POLFED32.EXE INPUT.EXT [OUTPUT.EXT]"
+    PRINT "  Example:"
+    PRINT "  POLFED32.EXE DOSFONT.VGA DOSFONT1.VGA"
+    PRINT 
+END SUB
+
+SUB ReadKey ()
+    DO
+        K$ = INKEY$
+    LOOP UNTIL K$ <> ""
+    K0 = ASC(K$)
+    K$ = RIGHT$(K$, 1)
+    K1 = ASC(K$)
+END SUB
+
+SUB SaveFont ()
+    CALL OIlast
+    CALL PrepChar
+    CALL Flash(Yof + 6, Xof + 3, 7)
+    LOCATE Yof + 6, Xof + 3, 0
+    PRINT "WRITING"
+    
+    OPEN FontPathSave$ FOR OUTPUT AS 1
+    Font$ = LEFT$(Font$, OST)
+    PRINT #1, Font$;
+    CLOSE #1
+    
+    LOCATE Yof + 6, Xof + 47, 0
+    PRINT LastChar
+END SUB
+
+SUB SaveUndoChar (CurrChar)
+    Undo$ = MID$(Font$, CurrChar * H + 1, H)
+END SUB
+
+SUB SaveCurrChar (CurrChar)
+    ' this SUB converts the actual state of a char saved in Zn$()
+    ' into a position in Font$
+    ConFont$ = ""
+    FOR w = 1 TO H
+        ConZn = 0
+        FOR X = 1 TO 8
+            ConZn$ = MID$(Zn$(w), X * 2 - 1, 2)
+            IF ConZn$ = i$ THEN
+                Index = 1
+            ELSE
+                Index = 0
+            END IF
+            ConZn = ConZn + Index * 2 ^ (8 - X)
+        NEXT X
+        ConFont$ = ConFont$ + CHR$(ConZn)
+    NEXT w
+    MID$(Font$, CurrChar * H + 1, H) = ConFont$
+END SUB
+
+SUB ShowMainWindow ()
+    CLS
+    LOCATE Yof + 1, Xof + 1
+    PRINT "ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»": LOCATE Yof + 2, Xof + 1
+    PRINT "º    POLFED " + PolFEDversion$ + "     º Bitmap Screen Font Editor  º POLFED v" + PolFEDversion$ + " º": LOCATE Yof + 3, Xof + 1
+    PRINT "ÈÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÎÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹ (c) 1994-97 by º": LOCATE Yof + 4, Xof + 1
+    PRINT "          º Directory º                            º Adam  TWARDOCH º": LOCATE Yof + 5, Xof + 1
+    PRINT "ÉÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÊÍËÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼": LOCATE Yof + 6, Xof + 1
+    PRINT "º Name of the font file º            º": LOCATE Yof + 7, Xof + 1
+    PRINT "ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍ¹": LOCATE Yof + 8, Xof + 1
+    PRINT "º  < Control Chars                   º": LOCATE Yof + 9, Xof + 1
+    PRINT "º   !"; CHR$(34); "#$%&'()*+,-./0123456789:;<=>?  º": LOCATE Yof + 10, Xof + 1
+    PRINT "º  @ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_  º": LOCATE Yof + 11, Xof + 1
+    PRINT "º  `abcdefghijklmnopqrstuvwxyz{|}~  º": LOCATE Yof + 12, Xof + 1
+    PRINT "º    º": LOCATE Yof + 13, Xof + 1
+    PRINT "º   ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿  º": LOCATE Yof + 14, Xof + 1
+    PRINT "º  ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß  º": LOCATE Yof + 15, Xof + 1
+    PRINT "º  àáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ  º": LOCATE Yof + 16, Xof + 1
+    PRINT "º  Buffers: 1 2 3 4    More Chars >  º": LOCATE Yof + 17, Xof + 1
+    PRINT "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼": LOCATE Yof + 18, Xof + 1
+END SUB
+
+SUB UndoChar (CurrChar)
+    MID$(Font$, CurrChar * H + 1, H) = Undo$
+END SUB
+
+SUB vMir (CurrChar)
+    FOR w = 1 TO H
+        A$ = LEFT$(Zn$(w), 16)
+        b$ = RIGHT$(Zn$(H - w + 1), 16)
+        Zn$(w) = b$ + A$
+    NEXT w
+    
+    FOR w = 1 TO H
+        Zn$(w) = LEFT$(Zn$(w), 16)
+    NEXT w
+END SUB
+
+
+</document_content>
+</document>
+
+<document index="10">
+<source>POLFED/README.md</source>
+<document_content>
+# POLFED32.EXE
+
+**Bitmap screen font editor for DOS text-mode fonts.**
+
+Opens and saves a simple bitmap format: depending on file extension, each glyph is 8 (.CGA), 14 (.EGA), 16 (.VGA), 20 (.XGA) pixels (lines/bytes) tall, and 8 pixels (1 byte/8 bits) wide. Has 4 built-in clipboard buffers for copy-paste, allows glyph shifting and mirroring, has a pattern-making function, and a really primitive UI. 
+
+I wrote the editor in 1994 because I thought I needed a Cyrillic font for my DOS. I didn’t have one, so I decided to make such a Cyrillic DOS font myself. Since I didn’t have a suitable editor, I wrote one. Once I finished writing the editor, I no longer needed the Cyrillic font, so I never made any single font with the app. I’m publishing the app here for no other reason than my vanity and nostalgia. :) 
+
+![alt text](POLFED32.GIF "POLFED32.GIF")
+
+Usage:
+```
+POLFED32.EXE INPUT.EXT [OUTPUT.EXT]
+```
+Example:
+```
+POLFED32.EXE DOSFONT.VGA DOSFONT1.VGA
+```
+
+Originally written in 1994 in QBasic, then in 1998 in Visual Basic for DOS, rewritten in 2015 using [FreeBasic](http://www.freebasic.net/). The repository contains `POLFED32.BAS`, the source code of the current version written in FreeBasic. To build, use `fbc -lang qb POLFED32.BAS`. It also contains `POLFED32.EXE`, a version that runs under Windows (in command line mode). 
+
+For historical purposes, it also contains an older version `POLFED16.EXE` which is written in Visual Basic for DOS and runs in DOS mode only (that version does not accept commandline arguments but displays a “fancy” UI for opening and saving files instead). 
+
+Copyright © 1994-2015 by Adam Twardoch. Published under the [Apache 2](/LICENSE) license at http://github.com/twardoch . 
+
+</document_content>
+</document>
+
+<document index="11">
+<source>README.md</source>
+<document_content>
+# dos-font-utils
+
+A collection of command-line font utility programs originally written in the late 1990s in BASIC for MS-DOS, and later rewritten in FreeBasic for compatibility with modern systems (Windows, Linux). These tools are primarily aimed at developers and typographers working with older font formats or requiring fine-grained control over font metrics and bitmap font editing.
+
+Published under the [Apache 2.0 License](/LICENSE).
+
+**Author:** Adam Twardoch <adam@twardoch.com>
+**Contributors:** Adam Twardoch <adam@twardoch.com>
+**Homepage:** [https://github.com/twardoch/dos-font-utils](https://github.com/twardoch/dos-font-utils)
+
+## Table of Contents
+
+*   [Overview](#overview)
+    *   [POLFED32.EXE - Bitmap Font Editor](#polfed32exe---bitmap-font-editor)
+    *   [METRXPRS.EXE - AFM Metrics Adjuster](#metrxprsexe---afm-metrics-adjuster)
+*   [Who is this for?](#who-is-this-for)
+*   [Why is it useful?](#why-is-it-useful)
+*   [Installation](#installation)
+    *   [Running the Executables](#running-the-executables)
+    *   [Building from Source](#building-from-source)
+*   [Usage](#usage)
+    *   [POLFED32.EXE](#polfed32exe)
+        *   [Command Line](#command-line)
+        *   [Programmatic Use](#programmatic-use)
+    *   [METRXPRS.EXE](#metrxprsexe)
+        *   [Command Line](#command-line-1)
+        *   [Programmatic Use](#programmatic-use-1)
+*   [Technical Deep-Dive](#technical-deep-dive)
+    *   [POLFED32.EXE Internals](#polfed32exe-internals)
+        *   [Font File Format](#font-file-format)
+        *   [User Interface](#user-interface)
+        *   [Key Features](#key-features)
+        *   [POLFED16.EXE (Historical)](#polfed16exe-historical)
+    *   [METRXPRS.EXE Internals](#metrxprsexe-internals)
+        *   [AFM File Processing](#afm-file-processing)
+        *   [MEQ File Format](#meq-file-format)
+*   [Coding and Contribution Rules](#coding-and-contribution-rules)
+    *   [Coding Conventions](#coding-conventions)
+    *   [Contributing](#contributing)
+
+## Overview
+
+This project provides two main utilities:
+
+### POLFED32.EXE - Bitmap Font Editor
+
+`POLFED32.EXE` is a powerful command-line editor for creating and modifying bitmap screen fonts, primarily those used in DOS text-mode environments. It allows for pixel-level manipulation of glyphs within a font file.
+
+*   **Key Features:** Edits simple bitmap font formats, supports various glyph heights (8, 14, 16, 20 pixels), multiple clipboards, glyph shifting/mirroring effects, and a pattern-making function.
+*   **Origin:** Originally written in QBasic (1994), then Visual Basic for DOS (1998), and rewritten in FreeBasic (2015).
+
+### METRXPRS.EXE - AFM Metrics Adjuster
+
+`METRXPRS.EXE` (Metrics Express) is a "metrics assistance" tool designed to process Adobe Font Metrics (`.AFM`) files. It corrects the metrics of composite glyphs (e.g., `Aacute`) to align with their base glyphs (e.g., `A`) based on user-defined equality tables.
+
+*   **Key Features:** Adjusts character width and bounding box information in `.AFM` files according to specified parent-child glyph relationships in a `.MEQ` file.
+*   **Origin:** Originally written in QBasic (1998) and rewritten in FreeBasic (2015). Developed to assist with font production workflows, particularly with older versions of font editing software like FontLab 3.0.
+
+## Who is this for?
+
+These tools are primarily for:
+
+*   **Type Designers & Font Developers:** Especially those working with legacy font projects or needing precise control over AFM files or DOS-era bitmap fonts.
+*   **Retrocomputing Enthusiasts:** Individuals interested in DOS-era software development or customizing text-mode environments.
+*   **Software Developers:** Those who might need to manipulate or generate simple bitmap fonts or AFM files programmatically or as part of a larger toolchain.
+
+## Why is it useful?
+
+*   **POLFED32.EXE:**
+    *   Provides a dedicated editor for a niche font format.
+    *   Offers pixel-level control for creating custom DOS screen fonts or modifying existing ones.
+    *   Useful for localizing old DOS applications or creating unique visual styles in text-mode programs.
+*   **METRXPRS.EXE:**
+    *   Automates the tedious process of ensuring metric consistency between base glyphs and their accented or composite counterparts in AFM files.
+    *   Can be crucial for maintaining visual harmony and correct spacing in fonts, especially those with many composite characters.
+    *   Helps bridge functionality gaps in older font editing software.
+
+## Installation
+
+### Running the Executables
+
+Pre-compiled Windows executables (`POLFED32.EXE`, `METRXPRS.EXE`) are provided in their respective subdirectories (`POLFED/` and `METRXPRS/`). These are command-line tools.
+
+*   **Windows:** Can be run directly from a Command Prompt (`cmd.exe`) or PowerShell.
+*   **Linux/macOS:** The FreeBasic source code can be compiled on these platforms (see below). For running DOS executables (like the historical `POLFED16.EXE`), an emulator like [DOSBox](https://www.dosbox.com/) would be required.
+
+No special installation steps are typically needed other than placing the executables in a directory that is in your system's `PATH` or navigating to their directory to run them.
+
+### Building from Source
+
+The tools are written in FreeBasic and can be compiled using the FreeBasic compiler (`fbc`).
+
+*   **Prerequisites:** Install the [FreeBasic compiler](http://www.freebasic.net/).
+*   **Compilation:**
+    *   For `METRXPRS.EXE`:
+        ```bash
+        cd METRXPRS
+        fbc -lang qb METRXPRS.BAS
+        ```
+    *   For `POLFED32.EXE`:
+        ```bash
+        cd POLFED
+        fbc -lang qb POLFED32.BAS
+        ```
+    The `-lang qb` option is used for compatibility with QBasic syntax elements.
+
+## Usage
+
+### POLFED32.EXE
+
+#### Command Line
+
+```
+POLFED32.EXE INPUT.EXT [OUTPUT.EXT]
+```
+
+*   `INPUT.EXT`: The path to the input font file. The file extension determines the expected character height:
+    *   `.CGA`: 8 pixels high
+    *   `.EGA`: 14 pixels high
+    *   `.VGA`: 16 pixels high (e.g., `DOSFONT.VGA`)
+    *   `.XGA`: 20 pixels high
+    *   `.F<nn>`: Custom height, where `<nn>` is a number from 4 to 20 (e.g., `.F10` for 10 pixels high).
+*   `[OUTPUT.EXT]`: (Optional) The path to save the modified font file. If omitted, `POLFED32.EXE` will overwrite the `INPUT.EXT` file upon saving.
+
+Upon execution, `POLFED32.EXE` opens an interactive text-based user interface (TUI) to edit the font. See the "POLFED32.EXE Internals" section for more on its features.
+
+**Example:**
+```bash
+POLFED\POLFED32.EXE POLFED\DOSFONT.VGA POLFED\MYFONT.VGA
+```
+
+#### Programmatic Use
+
+Direct programmatic use of `POLFED32.EXE` is not its primary design. However, one could automate its execution via shell scripts if batch processing of font files is needed, though interaction with its TUI would be complex to automate. The font file format itself (raw bitmap data) is simple and could be generated or manipulated by other custom programs.
+
+### METRXPRS.EXE
+
+#### Command Line
+
+```
+METRXPRS.EXE <AFM-INFILE> <AFM-OUTFILE> <MEQ-FILE>
+```
+
+*   `<AFM-INFILE>`: Path to the source Adobe Font Metrics (`.AFM`) file that needs correction.
+*   `<AFM-OUTFILE>`: Path where the corrected `.AFM` file will be saved.
+*   `<MEQ-FILE>`: Path to the "Metrics Equality" file. This plain text file defines which child glyphs should inherit metrics from which parent glyphs. (See [MEQ File Format](#meq-file-format) for details).
+
+**Example:**
+```bash
+METRXPRS\METRXPRS.EXE METRXPRS\ORIG.AFM METRXPRS\METR_corrected.AFM METRXPRS\ANSI.MEQ
+```
+This command will process `ORIG.AFM` using rules from `ANSI.MEQ` and save the result to `METR_corrected.AFM`.
+
+If incorrect arguments are provided, or if `/h` or `/?` is used as an argument, the program will display a help message with syntax instructions.
+
+#### Programmatic Use
+
+`METRXPRS.EXE` is well-suited for programmatic use in scripts or build processes due to its command-line nature and distinct input/output files. It can be easily integrated into automated font production workflows.
+
+## Technical Deep-Dive
+
+### POLFED32.EXE Internals
+
+`POLFED32.EXE` is a sophisticated text-mode application that provides a visual environment for editing bitmap fonts.
+
+#### Font File Format
+
+`POLFED32` works with raw binary font files.
+*   Each character in the font consists of a sequence of bytes.
+*   Each byte represents one row of 8 pixels for the character.
+*   The height of the character (number of rows/bytes per character) is determined by the input file's extension:
+    *   `.CGA`: 8 lines/bytes
+    *   `.EGA`: 14 lines/bytes
+    *   `.VGA`: 16 lines/bytes
+    *   `.XGA`: 20 lines/bytes
+    *   `.F<nn>`: Custom height from 4 to 20 lines/bytes.
+*   The font file is simply a concatenation of the bitmap data for all characters it contains (typically 256 characters for an extended ASCII set). For example, a `.VGA` font with 256 characters would be `256 * 16 = 4096` bytes in size.
+
+#### User Interface
+
+The editor presents a Text-based User Interface (TUI):
+*   **Main View:** Displays a grid of all characters in the font. The currently selected character is highlighted.
+*   **Character Editor View:** Shows a magnified, pixel-level view of the selected character, allowing direct manipulation of individual pixels.
+*   **Information Panel:** Displays codes (DEC, HEX, ASCII) for the selected character and context-sensitive help (toggled with `ALT+H` through multiple help screens).
+*   **Pixel Representation:** Different character pairs are used to represent 'on' and 'off' pixels, with alternative display modes available.
+
+#### Key Features
+
+*   **Pixel Editing:** Toggle individual pixels using the spacebar within the editor view. Arrow keys move the editing cursor.
+*   **Character Navigation:** Use arrow keys, PgUp/PgDn in the main view to select characters.
+*   **Effects (available in both main view and editor view via numeric keypad or dedicated keys):**
+    *   `0`: Clear character
+    *   `5`: Invert character (flips black/white pixels)
+    *   `7`: Horizontal mirror
+    *   `9`: Vertical mirror
+    *   `8, 2, 4, 6` (numpad): Shift character pixels up, down, left, right respectively.
+    *   `Alt+P` (in editor): Pattern fill (repeats the current pixel pattern downwards).
+*   **Clipboard:**
+    *   `F1-F4`: Copy current character to clipboard buffer 1-4.
+    *   `Ctrl+F1-F4`: Paste from clipboard buffer 1-4 to current character.
+    *   `Shift+F1-F4`: View character in clipboard buffer 1-4.
+    *   `Alt+F1-F4`: Clear clipboard buffer 1-4.
+*   **Undo:** `Backspace` key provides a single-level undo for the last modification to a character.
+*   **Saving/Exiting:**
+    *   `Alt+X`: Prompts to save and exit.
+    *   `Alt+Q`: Prompts to quit without saving.
+*   **Sound Toggle:** `F9` toggles sound effects.
+*   **Alternate Display:** `F10` cycles through different pixel display styles.
+
+#### POLFED16.EXE (Historical)
+
+The `POLFED` directory also contains `POLFED16.EXE`. This is an older version of the editor, written in Visual Basic for DOS.
+*   It runs in DOS mode only (requires an emulator like DOSBox on modern systems).
+*   It does **not** accept command-line arguments for file input/output. Instead, it features a "fancy" (for its time) UI for opening and saving files.
+*   The source code for this version is not provided.
+
+### METRXPRS.EXE Internals
+
+`METRXPRS.EXE` processes AFM files based on rules in a MEQ file.
+
+#### AFM File Processing
+
+The program (`METRXPRS.BAS`) operates as follows:
+1.  **Argument Parsing:** Reads the input AFM, output AFM, and MEQ file paths from the command line.
+2.  **MEQ File Parsing:**
+    *   Reads the `MEQ-FILE`. Each line is parsed into a child glyph name and a parent glyph name.
+    *   These pairs are stored in an array (e.g., `MEQ$`).
+    *   A list of unique parent glyph names is also created (e.g., `UNQ$`).
+3.  **Parent Metrics Collection:**
+    *   The `AFM-INFILE` is read.
+    *   For each character metric line (`C ... N <glyphname> ...`), if `<glyphname>` is in the list of unique parent glyphs, its metrics (character code, width `WX`, and bounding box `B llx lly urx ury`) are stored.
+4.  **Child Metrics Adjustment and Output:**
+    *   The `AFM-INFILE` is read again, line by line.
+    *   Non-character metric lines (headers, comments, kerning data) are written to `AFM-OUTFILE` as-is.
+    *   For each character metric line:
+        *   The glyph name is extracted.
+        *   If this glyph name is found as a "child" in the `MEQ$` array:
+            *   Its corresponding "parent" glyph name is retrieved.
+            *   The stored metrics (specifically `WX`, `B0` (llx), and `B2` (urx)) of the parent glyph are used to replace those of the child glyph. The `B1` (lly) and `B3` (ury) values, as well as the character code and glyph name, are preserved from the original child glyph entry.
+        *   The (potentially modified) character metric line is written to `AFM-OUTFILE`.
+5.  **Summary:** After processing, the program prints the number of glyphs whose metrics were corrected.
+
+The core logic ensures that composite characters like 'Aacute' will have the same width and horizontal bounding box extents as their base character 'A', if specified in the MEQ file.
+
+#### MEQ File Format
+
+The Metrics Equality (`.MEQ`) file is a simple plain text file.
+*   Each line defines one equality rule.
+*   The format of each line is: `<child_glyphname> <space> <parent_glyphname>`
+*   Example:
+    ```
+    Aacute A
+    Agrave A
+    eacute e
+    ```
+    This tells `METRXPRS.EXE` to adjust the metrics of `Aacute` and `Agrave` based on `A`, and `eacute` based on `e`.
+
+Sample files `ANSI.MEQ`, `ORIG.AFM` (input example), and `METR.AFM` (output example after processing `ORIG.AFM` with `ANSI.MEQ`) are provided in the `METRXPRS` directory.
+
+## Coding and Contribution Rules
+
+### Coding Conventions
+
+As these tools are written in FreeBasic (with QBasic compatibility - `-lang qb`), any contributions to the `.BAS` source files should aim to:
+
+*   **Maintain Clarity:** Write readable code. Use comments (`REM` or `'`) to explain complex sections.
+*   **Variable Naming:** Follow existing patterns (e.g., string variables often end with `$`, integer variables may have no suffix or `%`).
+*   **Modularity:** Use `SUB` and `FUNCTION` for procedures where appropriate.
+*   **Compatibility:** Ensure changes are compatible with FreeBasic and the `-lang qb` dialect if modifying existing logic.
+*   **Error Handling:** Implement or maintain basic error checking.
+
+### Contributing
+
+This project is maintained by Adam Twardoch. While it's a relatively small and mature project, contributions in the form of bug reports or feature suggestions are welcome.
+
+*   **Bug Reports:** If you find a bug, please provide detailed steps to reproduce it, including sample input files if applicable, and the expected vs. actual behavior.
+*   **Feature Suggestions:** Clearly describe the proposed feature and why it would be useful.
+*   **Pull Requests:** If you wish to contribute code:
+    1.  Fork the repository on GitHub.
+    2.  Create a new branch for your changes.
+    3.  Make your changes, adhering to the coding conventions.
+    4.  Test your changes thoroughly.
+    5.  Commit your changes with clear and descriptive messages.
+    6.  Push your branch to your fork.
+    7.  Open a pull request against the main `dos-font-utils` repository.
+
+Please ensure any contributed code is also licensed under the Apache 2.0 License.
+
+</document_content>
+</document>
+
+<document index="12">
+<source>_config.yml</source>
+<document_content>
+theme: jekyll-theme-minimal
+</document_content>
+</document>
+
+</documents>
