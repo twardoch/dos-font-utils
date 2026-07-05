@@ -1,6 +1,10 @@
 # dos-font-utils
 
-A collection of command-line font utility programs originally written in the late 1990s in BASIC for MS-DOS, and later rewritten in FreeBasic for compatibility with modern systems (Windows, Linux). These tools are primarily aimed at developers and typographers working with older font formats or requiring fine-grained control over font metrics and bitmap font editing.
+![icon](docs/assets/icon.png)
+
+Two small font tools from the DOS age. `POLFED32` edits DOS text-mode bitmap fonts pixel by pixel; `METRXPRS` fixes the metrics of composite glyphs in Adobe `.AFM` files so an `Aacute` lines up with its `A`. Both were written in BASIC in the late 1990s, then rewritten in FreeBasic (2015) so they still compile and run on Windows and Linux today.
+
+> **Status:** archival. These are stable, mature, single-purpose utilities kept here for retrocomputing and legacy font-production work. Expect no new features — bug reports are still welcome.
 
 Published under the [Apache 2.0 License](/LICENSE).
 

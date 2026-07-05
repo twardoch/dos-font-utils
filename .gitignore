@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# FreeBasic build artifacts
+*.o
+*.obj
+
+# Editor / OS cruft
+*~
+*.swp
+Thumbs.db
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
